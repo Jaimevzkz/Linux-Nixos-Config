@@ -64,6 +64,7 @@
 	zsh
 	starship
 	tmux
+	lazygit
 
 	#apps
 	signal-desktop
