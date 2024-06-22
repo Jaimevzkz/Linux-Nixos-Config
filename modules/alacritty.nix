@@ -24,7 +24,7 @@
       #shell.program = "/run/current-system/sw/bin/zsh";
       shell = {
         program = "/run/current-system/sw/bin/zsh";
-        args = ["-l" "-c" "tmux attach || tmux"];
+        #args = ["-l" "-c" "tmux attach || tmux"]; # Open tmux session every time alcritty is opened
       };
 
       colors = {

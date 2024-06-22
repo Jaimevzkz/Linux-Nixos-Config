@@ -22,6 +22,7 @@
       shell = "nix develop --command zsh";
       lg = "lazygit";
       psh = "git add . && git commit -m \"update\" && git push";
+      t = "tmux attach || tmux";
     };
 
     oh-my-zsh = {
