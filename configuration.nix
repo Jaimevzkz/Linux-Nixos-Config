@@ -15,6 +15,14 @@
     backupFileExtension = "backup";
   };
 
+  nixpkgs.overlays = [
+    (final: prev: {
+      neovim = prev.neovim.overrideAttrs (oldAttrs: rec {
+        config = builtins.path { path = ./dotfiles/nvim; };
+      });
+    })
+  ];
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -76,14 +84,6 @@
 	networkmanagerapplet
 	dolphin
 	jq
-  ];
-
-  nixpkgs.overlays = [
-    (final: prev: {
-      neovim = prev.neovim.overrideAttrs (oldAttrs: rec {
-        config = builtins.path { path = ./dotfiles/nvim; };
-      });
-    })
   ];
 
   users.users = {
