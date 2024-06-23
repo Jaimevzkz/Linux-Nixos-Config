@@ -1,5 +1,4 @@
 { config, pkgs, ... }:
-
 {
   imports = [
     ./modules/zsh.nix
@@ -18,7 +17,7 @@
 
   };
 
-#Zoxide
+# Zoxide
   programs.zoxide = {
     enable = true;
     enableZshIntegration = true;

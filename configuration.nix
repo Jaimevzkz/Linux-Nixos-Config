@@ -15,24 +15,8 @@
     backupFileExtension = "backup";
   };
 
-  nixpkgs = {
-    # You can add overlays here
-    overlays = [
-      # If you want to use overlays exported from other flakes:
-      # neovim-nightly-overlay.overlays.default
-
-      # Or define it inline, for example:
-      # (final: prev: {
-      #   hi = final.hello.overrideAttrs (oldAttrs: {
-      #     patches = [ ./change-hello-to-hi.patch ];
-      #   });
-      # })
-    ];
-    # Configure your nixpkgs instance
-    config = {
-      allowUnfree = true;
-    };
-  };
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 
   # Enable the GNOME Desktop Environment.
   services.xserver.displayManager.gdm.enable = true;
@@ -43,15 +27,12 @@
     enable = true;
     xwayland.enable = true;
   };
+  programs.waybar.enable = true;
   xdg.portal.enable = true;
-  #xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
-  #fonts.packages = with pkgs; [
-  #  (nerdfonts.override { fonts = [ "Hack" "Gohu"]; })
-  #];
-  fonts.packages = with pkgs; [
+ fonts.packages = with pkgs; [
     fira-code-nerdfont
   ];
 
@@ -63,6 +44,9 @@
 	#util
 	gcc
 	git
+	pamixer #volume control
+	brightnessctl
+	xclip
 
 	#terminal
 	vim
@@ -91,6 +75,15 @@
 	rofi-wayland
 	networkmanagerapplet
 	dolphin
+	jq
+  ];
+
+  nixpkgs.overlays = [
+    (final: prev: {
+      neovim = prev.neovim.overrideAttrs (oldAttrs: rec {
+        config = builtins.path { path = ./dotfiles/nvim; };
+      });
+    })
   ];
 
   users.users = {
