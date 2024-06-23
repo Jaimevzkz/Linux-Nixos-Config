@@ -17,7 +17,9 @@
 
   nixpkgs.overlays = [
     (final: prev: {
-      waybar = prev.waybar.overrideAttrs (old: { src = ./dotfiles/waybar; });
+      waybar = prev.waybar.overrideAttrs (oldAttrs: rec {
+        config = builtins.path { path = ./dotfiles/waybar; };
+      });
       neovim = prev.neovim.overrideAttrs (oldAttrs: rec {
         config = builtins.path { path = ./dotfiles/nvim; };
       });
