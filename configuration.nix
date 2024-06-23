@@ -16,14 +16,7 @@
   };
 
   nixpkgs.overlays = [
-    (final: prev: {
-      waybar = prev.waybar.overrideAttrs (oldAttrs: rec {
-        config = builtins.path { path = ./dotfiles/waybar; };
-      });
-      neovim = prev.neovim.overrideAttrs (oldAttrs: rec {
-        config = builtins.path { path = ./dotfiles/nvim; };
-      });
-    })
+
   ];
 
   # Allow unfree packages
@@ -71,6 +64,7 @@
 	starship
 	tmux
 	lazygit
+	cmatrix
 
 	#apps
 	signal-desktop

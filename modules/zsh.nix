@@ -16,7 +16,7 @@
       kt="/home/vzkz/Own_Pojects/kotlin_WorkSpace && eza --icons -lah";
       sl="/home/vzkz/Own_Pojects/Salamandra && eza --icons -lah";
       dw="/home/vzkz/Downloads && eza --icons -lah";
-      slmpull="cd aws-stack && echo \"\nPull server:\" && git pull --recurse-submodules && cd .. && cd salamandra-android && echo \"\nPull android:\" && git pull && cd .. && cd notes && echo \"\nPull notes:\" && git pull && cd ..";
+      slmpull="cd server && echo \"\nPull server:\" && git pull --recurse-submodules && cd .. && cd android && echo \"\nPull android:\" && git pull && cd .. && cd notes && echo \"\nPull notes:\" && git pull && cd ..";
       cd = "z";
       update = "sudo nixos-rebuild switch --flake ~/nixos/#nixos-config";
       shell = "nix develop --command zsh";
