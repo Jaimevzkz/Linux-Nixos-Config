@@ -1,0 +1,31 @@
+window {
+    background: #282828; /* Set the background color */
+    border-color: #458588; /* Set the border color */
+    border-width: 2px;
+    font: Monospace 16px; /* Set the font and size */
+    color: #ebdbb2; /* Set the font color */
+}
+
+button {
+    background: #458588; /* Set the button background color */
+    border-color: #282828; /* Set the button border color */
+    border-width: 2px;
+    color: #282828; /* Set the button text color */
+    font: Monospace 16px; /* Set the button font and size */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #83a598; /* Set the button background color on hover */
+}
+
+button:pressed {
+    background: #d79921; /* Set the button background color when pressed */
+}
+
+button:focus {
+    outline: none; /* Remove focus outline */
+}
+

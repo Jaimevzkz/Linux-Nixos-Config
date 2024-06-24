@@ -70,7 +70,6 @@
 	signal-desktop
 	home-manager
 	discord
-	androidStudioPackages.dev
 
 	#Hyprland
 	waybar
@@ -81,6 +80,10 @@
 	networkmanagerapplet
 	dolphin
 	jq
+	wlogout
+	swaylock-effects
+	swaylock
+	hyprlock
   ];
 
   users.users = {
