@@ -70,7 +70,7 @@
 	signal-desktop
 	home-manager
 	discord
-	android-studio
+	androidStudioPackages.dev
 
 	#Hyprland
 	waybar
