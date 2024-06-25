@@ -54,8 +54,6 @@
 	grim
 	slurp
 	clipman
-	nautilus # Package manager
-	make
 	unzip
 
 	#terminal
@@ -88,10 +86,8 @@
 	networkmanagerapplet
 	dolphin
 	jq
-	wlogout
-	swaylock-effects
-	swaylock
 	hyprlock
+	idlelock
   ];
 
   users.users = {
