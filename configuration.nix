@@ -53,7 +53,10 @@
 	xclip
 	grim
 	slurp
-	wl-clipboard
+	clipman
+	nautilus # Package manager
+	make
+	unzip
 
 	#terminal
 	vim
