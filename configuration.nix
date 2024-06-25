@@ -51,6 +51,9 @@
 	pamixer #volume control
 	brightnessctl
 	xclip
+	grim
+	slurp
+	wl-clipboard
 
 	#terminal
 	vim
@@ -70,7 +73,8 @@
 	signal-desktop
 	home-manager
 	discord
-	androidStudioPackages.dev
+	android-studio
+	obsidian
 
 	#Hyprland
 	waybar
