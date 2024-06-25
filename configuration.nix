@@ -87,7 +87,7 @@
 	dolphin
 	jq
 	hyprlock
-	idlelock
+	hypridle
   ];
 
   users.users = {
@@ -104,6 +104,9 @@
   #enable zsh and set it as default
   users.defaultUserShell = pkgs.zsh;
   programs.zsh.enable = true;
+
+  # Swaylock
+  programs.sway.enable = true;
 
   # Bootloader.
   boot.loader.grub.enable = true;
