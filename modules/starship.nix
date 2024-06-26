@@ -4,29 +4,14 @@
   programs.starship = {
     enable = true;
     settings = {
+      format="$directory$git_branch$git_commit$git_state$git_metrics$git_status$rust$c$docker_context$kotlin$nix_shell\n$character";
       aws = {
         symbol = "  ";
         disabled = true;
       };
 
-      buf = {
-        symbol = " ";
-      };
-
       c = {
         symbol = " ";
-      };
-
-      conda = {
-        symbol = " ";
-      };
-
-      crystal = {
-        symbol = " ";
-      };
-
-      dart = {
-        symbol = " ";
       };
 
       directory = {
@@ -41,14 +26,6 @@
         symbol = " ";
       };
 
-      elm = {
-        symbol = " ";
-      };
-
-      fennel = {
-        symbol = " ";
-      };
-
       fossil_branch = {
         symbol = " ";
       };
@@ -59,18 +36,6 @@
 
       golang = {
         symbol = " ";
-      };
-
-      guix_shell = {
-        symbol = " ";
-      };
-
-      haskell = {
-        symbol = " ";
-      };
-
-      haxe = {
-        symbol = " ";
       };
 
       hg_branch = {
@@ -99,14 +64,6 @@
 
       memory_usage = {
         symbol = "󰍛 ";
-      };
-
-      meson = {
-        symbol = "󰔷 ";
-      };
-
-      nim = {
-        symbol = "󰆥 ";
       };
 
       nix_shell = {
@@ -169,36 +126,16 @@
         symbol = "󰏗 ";
       };
 
-      perl = {
-        symbol = " ";
-      };
-
       php = {
         symbol = " ";
-      };
-
-      pijul_channel = {
-        symbol = " ";
       };
 
       python = {
         symbol = " ";
       };
 
-      rlang = {
-        symbol = "󰟔 ";
-      };
-
-      ruby = {
-        symbol = " ";
-      };
-
       rust = {
         symbol = " ";
-      };
-
-      scala = {
-        symbol = " ";
       };
 
       swift = {

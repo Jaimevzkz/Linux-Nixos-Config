@@ -94,7 +94,7 @@
     vzkz = {
    	 isNormalUser = true;
    	 description = "Jaime";
-   	 extraGroups = [ "networkmanager" "wheel" ];
+   	 extraGroups = [ "networkmanager" "wheel" "docker" ];
    	 packages = with pkgs; [
    		 #  thunderbird
    	 ];
@@ -107,6 +107,9 @@
 
   # Swaylock
   programs.sway.enable = true;
+
+  # Docker
+  virtualisation.docker.enable = true;
 
   # Bootloader.
   boot.loader.grub.enable = true;
