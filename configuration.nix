@@ -31,7 +31,7 @@
 
   services.syncthing = {
     enable = true;
-    user = "your_username"; # replace with your actual username
+    user = "nixos";
   };
 
 
