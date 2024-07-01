@@ -23,16 +23,24 @@
   nixpkgs.config.allowUnfree = true;
 
   # Enable the GNOME Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  services.xserver = {
+    enable = true;
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
+
+    displayManager.sessionCommands = ''
+      syncthing &
+      '';
+  };
+
 
   # Enable Hyprland tiling window manager
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true;
-  };
-  programs.waybar.enable = true;
-  xdg.portal.enable = true;
+  #programs.hyprland = {
+  #  enable = true;
+  #  xwayland.enable = true;
+  #};
+  #programs.waybar.enable = true;
+  #xdg.portal.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
@@ -74,8 +82,10 @@
 	signal-desktop
 	home-manager
 	discord
-	android-studio
+	androidStudioPackages.dev
 	obsidian
+	syncthing
+	keepassxc
 
 	#Hyprland
 	waybar
@@ -106,7 +116,7 @@
   programs.zsh.enable = true;
 
   # Swaylock
-  programs.sway.enable = true;
+  #programs.sway.enable = true;
 
   # Docker
   virtualisation.docker.enable = true;
@@ -137,9 +147,7 @@
     LC_TIME = "es_ES.UTF-8";
   };
 
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
-
+  
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
