@@ -27,10 +27,11 @@
     enable = true;
     displayManager.gdm.enable = true;
     desktopManager.gnome.enable = true;
+  };
 
-    displayManager.sessionCommands = ''
-      syncthing &
-      '';
+  services.syncthing = {
+    enable = true;
+    user = "your_username"; # replace with your actual username
   };
 
 
