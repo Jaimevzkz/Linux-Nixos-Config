@@ -29,19 +29,14 @@
     desktopManager.gnome.enable = true;
   };
 
-  services.syncthing = {
-    enable = true;
-    user = "nixos";
-  };
-
 
   # Enable Hyprland tiling window manager
-  #programs.hyprland = {
-  #  enable = true;
-  #  xwayland.enable = true;
-  #};
-  #programs.waybar.enable = true;
-  #xdg.portal.enable = true;
+  programs.hyprland = {
+    enable = true;
+    xwayland.enable = true;
+  };
+  programs.waybar.enable = true;
+  xdg.portal.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
@@ -64,6 +59,7 @@
 	slurp
 	clipman
 	unzip
+	android-tools
 
 	#terminal
 	vim
