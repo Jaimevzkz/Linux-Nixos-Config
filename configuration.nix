@@ -22,25 +22,30 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # Enable the GNOME Desktop Environment.
-  services.xserver = {
-    enable = true;
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
-  };
+  # Enable xserver
+  services.xserver.enable = true;
 
+  # Enable i3 window manager
+  services.xserver.windowManager.i3.enable = true;
+  services.picom.enable = true;
+
+  # Enable the gdm display manager.
+  services.xserver.displayManager.gdm.enable = true;
+
+  # Enable the GNOME Desktop Environment.
+  services.xserver.desktopManager.gnome.enable = true;
 
   # Enable Hyprland tiling window manager
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true;
-  };
-  programs.waybar.enable = true;
-  xdg.portal.enable = true;
+#  programs.hyprland = {
+#    enable = true;
+#    xwayland.enable = true;
+#  };
+#  programs.waybar.enable = true;
+#  xdg.portal.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
- fonts.packages = with pkgs; [
+  fonts.packages = with pkgs; [
     fira-code-nerdfont
   ];
 
@@ -49,7 +54,7 @@
   programs.firefox.enable = true;
 
   environment.systemPackages = with pkgs; [
-	#util
+	# Util
 	gcc
 	git
 	pamixer #volume control
@@ -60,8 +65,9 @@
 	clipman
 	unzip
 	android-tools
+	networkmanagerapplet
 
-	#terminal
+	# Terminal
 	vim
 	neovim
 	neofetch
@@ -75,7 +81,7 @@
 	lazygit
 	cmatrix
 
-	#apps
+	# Apps
 	signal-desktop
 	home-manager
 	discord
@@ -84,17 +90,25 @@
 	syncthing
 	keepassxc
 
-	#Hyprland
-	waybar
-	dunst #Notification daemon
-	libnotify
-	hyprpaper #Wallpaper daemon
-	rofi-wayland
-	networkmanagerapplet
-	dolphin
-	jq
-	hyprlock
-	hypridle
+	# i3
+	polybar
+	feh
+	killall
+	rofi
+	pavucontrol
+	pipewire
+#	dunst #Notification daemon
+
+	# Hyprland
+#	waybar
+#	libnotify
+#	hyprpaper #Wallpaper daemon
+#	rofi-wayland
+#	networkmanagerapplet
+#	dolphin
+#	jq
+#	hyprlock
+#	hypridle
   ];
 
   users.users = {

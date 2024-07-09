@@ -1,10 +1,10 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 # Define the directory containing your dotfiles
 DOTFILES_DIR=~/nixos/dotfiles
 
 # List of directories to link
-CONFIG_DIRS=("nvim" "waybar" "hypr")  # Add other directories as needed
+# "waybar" "hypr"
+CONFIG_DIRS=("nvim" "i3" "polybar" "picom" "rofi")  # Add other directories as needed
 
 # Create symbolic links
 for DIR in "${CONFIG_DIRS[@]}"; do

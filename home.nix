@@ -5,6 +5,7 @@
     ./modules/alacritty.nix
     ./modules/starship.nix
     ./modules/tmux.nix
+    #./modules/i3.nix
   ];
   home.username = "vzkz";
   home.homeDirectory = "/home/vzkz";
