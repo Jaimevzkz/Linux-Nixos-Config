@@ -59,13 +59,15 @@
 	git
 	pamixer #volume control
 	brightnessctl
-	xclip
 	grim
 	slurp
-	clipman
 	unzip
 	android-tools
-	networkmanagerapplet
+	scrot
+	xclip
+	maim
+	libnotify
+	appimage-tools
 
 	# Terminal
 	vim
@@ -97,7 +99,7 @@
 	rofi
 	pavucontrol
 	pipewire
-#	dunst #Notification daemon
+	dunst #Notification daemon
 
 	# Hyprland
 #	waybar
@@ -109,6 +111,7 @@
 #	jq
 #	hyprlock
 #	hypridle
+#	clipman
   ];
 
   users.users = {
