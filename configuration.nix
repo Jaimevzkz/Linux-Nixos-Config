@@ -133,11 +133,10 @@
 
   # Docker
   virtualisation.docker.enable = true;
-
+  
   # Bootloader.
-  boot.loader.grub.enable = true;
-  boot.loader.grub.device = "/dev/nvme0n1";
-  boot.loader.grub.useOSProber = true;
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
 
   # Enable networking
   networking.networkmanager.enable = true;
@@ -164,7 +163,7 @@
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
-    variant = "";
+    variant = "intl";
   };
 
   # Enable CUPS to print documents.
