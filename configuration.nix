@@ -67,7 +67,6 @@
 	xclip
 	maim
 	libnotify
-	appimage-tools
 
 	# Terminal
 	vim
