@@ -13,8 +13,8 @@
       l = "eza -lah --icons --git --sort=Extension";
       v = "nvim";
       e = "exit";
-      kt="/home/vzkz/Own_Pojects/kotlin_WorkSpace && eza --icons -lah";
-      sl="/home/vzkz/Own_Pojects/Salamandra && eza --icons -lah";
+      kt="/home/vzkz/Own_Projects/kotlin_WorkSpace && eza --icons -lah";
+      sl="/home/vzkz/Own_Projects/Salamandra && eza --icons -lah";
       dw="/home/vzkz/Downloads && eza --icons -lah";
       slmpull="cd server && echo \"\nPull server:\" && git pull --recurse-submodules && cd .. && cd android && echo \"\nPull android:\" && git pull && cd ..";
       cd = "z";
@@ -23,6 +23,7 @@
       lg = "lazygit";
       psh = "git add . && git commit -m \"update\" && git push";
       t = "tmux attach || tmux";
+      wifi = "sudo nmtui";
     };
 
     oh-my-zsh = {

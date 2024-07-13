@@ -99,6 +99,7 @@
 	pavucontrol
 	pipewire
 	dunst #Notification daemon
+	betterlockscreen
 
 	# Hyprland
 #	waybar
