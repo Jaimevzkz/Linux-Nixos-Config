@@ -100,6 +100,7 @@
 	pipewire
 	dunst #Notification daemon
 	betterlockscreen
+	xss-lock
 
 	# Hyprland
 #	waybar
