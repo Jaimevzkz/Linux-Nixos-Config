@@ -52,6 +52,7 @@
   networking.hostName = "nixos";
 
   programs.firefox.enable = true;
+  services.blueman.enable = true;
 
   environment.systemPackages = with pkgs; [
 	# Util
@@ -67,6 +68,7 @@
 	xclip
 	maim
 	libnotify
+	blueman
 
 	# Terminal
 	vim
@@ -100,7 +102,6 @@
 	pipewire
 	dunst #Notification daemon
 	betterlockscreen
-	xss-lock
 
 	# Hyprland
 #	waybar
