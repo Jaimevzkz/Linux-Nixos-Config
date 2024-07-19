@@ -24,6 +24,7 @@
       psh = "git add . && git commit -m \"update\" && git push";
       t = "tmux attach || tmux";
       wifi = "sudo nmtui";
+      bluetooth = "blueman-manager";
     };
 
     oh-my-zsh = {

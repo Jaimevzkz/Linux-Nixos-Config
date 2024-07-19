@@ -69,6 +69,7 @@
 	maim
 	libnotify
 	blueman
+	lua
 
 	# Terminal
 	vim
