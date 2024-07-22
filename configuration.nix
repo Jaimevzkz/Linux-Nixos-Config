@@ -55,74 +55,76 @@
   services.blueman.enable = true;
 
   environment.systemPackages = with pkgs; [
-	# Util
-	gcc
-	git
-	pamixer #volume control
-	brightnessctl
-	grim
-	slurp
-	unzip
-	android-tools
-	scrot
-	xclip
-	maim
-	libnotify
-	blueman
-	lua
+    # Util
+    gcc
+    git
+    pamixer #volume control
+    brightnessctl
+    grim
+    slurp
+    unzip
+    android-tools
+    scrot
+    xclip
+    maim
+    libnotify
+    blueman
+    lua
+    texliveFull
+    zathura
 
-	# Terminal
-	vim
-	neovim
-	neofetch
-	htop
-	eza
-	zoxide
-	alacritty
-	zsh
-	starship
-	tmux
-	lazygit
-	cmatrix
+    # Terminal
+    vim
+    neovim
+    neofetch
+    htop
+    eza
+    zoxide
+    alacritty
+    zsh
+    starship
+    tmux
+    lazygit
+    cmatrix
 
-	# Apps
-	signal-desktop
-	home-manager
-	discord
-	androidStudioPackages.dev
-	obsidian
-	syncthing
-	keepassxc
+    # Apps
+    signal-desktop
+    home-manager
+    discord
+    androidStudioPackages.dev
+    obsidian
+    syncthing
+    keepassxc
 
-	# i3
-	polybar
-	feh
-	killall
-	rofi
-	pavucontrol
-	pipewire
-	dunst #Notification daemon
-	betterlockscreen
+    # i3
+    polybar
+    feh
+    killall
+    rofi
+    pavucontrol
+    pipewire
+    dunst #Notification daemon
+    betterlockscreen
 
-	# Hyprland
-#	waybar
-#	libnotify
-#	hyprpaper #Wallpaper daemon
-#	rofi-wayland
-#	networkmanagerapplet
-#	dolphin
-#	jq
-#	hyprlock
-#	hypridle
-#	clipman
+    # Hyprland
+    #	waybar
+    #	libnotify
+    #	hyprpaper #Wallpaper daemon
+    #	rofi-wayland
+    #	networkmanagerapplet
+    #	dolphin
+    #	jq
+    #	hyprlock
+    #	hypridle
+    #	clipman
   ];
 
   users.users = {
     vzkz = {
-   	 isNormalUser = true;
-   	 description = "Jaime";
-   	 extraGroups = [ "networkmanager" "wheel" "docker" ];
-   	 packages = with pkgs; [
+      isNormalUser = true;
+      description = "Jaime";
+      extraGroups = [ "networkmanager" "wheel" "docker" ];
+      packages = with pkgs; [
    		 #  thunderbird
    	 ];
 	shell = pkgs.zsh;
