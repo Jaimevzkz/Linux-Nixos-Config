@@ -3,7 +3,7 @@
 
 ## Tech Stack
 - i3 Tiling Window Manager
-  - [Picom]{https://github.com/yshui/picom}: A lightweight compositor for X.
+  - {Picom}[https://github.com/yshui/picom]: A lightweight compositor for X.
   - [Polybar]{https://github.com/polybar/polybar}: A fast and easy-to-use status bar.
   - [Rofi]{https://github.com/davatorium/rofi}: A window switcher, application launcher and dmenu replacement.
   - [feh]{https://feh.finalrewind.org/}: Terminal Image viewer.
