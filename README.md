@@ -3,16 +3,22 @@
 
 ## Tech Stack
 - i3 Tiling Window Manager
-  - {Picom}[https://github.com/yshui/picom]: A lightweight compositor for X.
-  - [Polybar]{https://github.com/polybar/polybar}: A fast and easy-to-use status bar.
-  - [Rofi]{https://github.com/davatorium/rofi}: A window switcher, application launcher and dmenu replacement.
-  - [feh]{https://feh.finalrewind.org/}: Terminal Image viewer.
--  Nvim: Modern, open-source text editor based on Vim.
+  - [Picom](https://github.com/yshui/picom): A lightweight compositor for X.
+  - [Polybar](https://github.com/polybar/polybar): A fast and easy-to-use status bar.
+  - [Rofi](https://github.com/davatorium/rofi): A window switcher, application launcher and dmenu replacement.
+  - [feh](https://feh.finalrewind.org/): Terminal Image viewer.
+-  Nvim: Modern, open-source text editor based on Vim. Configured using [Lazy.nvim](https://github.com/folke/lazy.nvim) plugin manager.
+  - [Catppuccion theme](https://github.com/catppuccin/nvim).
+  - [Lualine](https://github.com/nvim-lualine/lualine.nvim).
+  - [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim).
+  - [Telscope](https://github.com/nvim-telescope/telescope.nvim)
+  - [Treesitter](https://tree-sitter.github.io/tree-sitter/)
+  - [Vimtex ](https://github.com/lervag/vimtex)
 -  Terminal
-  - [Alacritty]{https://github.com/alacritty/alacritty}: Cross-platform terminal emulator. 
-  - [Zsh an OhMyZsh]{https://ohmyz.sh}: Shell for Unix-like operating systems and framework for managing your Zsh configuration.
-  - [Starship]{https://starship.rs/}: Minimal, customizable prompt.
-  - [Tmux ]{https://github.com/tmux/tmux}: Terminal multiplexor.
+  - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
+  - [Zsh an OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
+  - [Starship](https://starship.rs/): Minimal, customizable prompt.
+  - [Tmux ](https://github.com/tmux/tmux): Terminal multiplexor.
 ## Pre-requisites
 - A system with a fresh Nix operating system installed
 ## Installation
