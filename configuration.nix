@@ -105,6 +105,8 @@
     pipewire
     dunst #Notification daemon
     betterlockscreen
+    i3lock
+    xautolock
 
     # Hyprland
     #	waybar
