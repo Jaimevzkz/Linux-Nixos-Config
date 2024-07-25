@@ -47,6 +47,7 @@
 
   fonts.packages = with pkgs; [
     fira-code-nerdfont
+    font-awesome
   ];
 
   networking.hostName = "nixos";
@@ -55,71 +56,74 @@
   services.blueman.enable = true;
 
   environment.systemPackages = with pkgs; [
-    # Util
-    gcc
-    git
-    pamixer #volume control
-    brightnessctl
-    grim
-    slurp
-    unzip
-    android-tools
-    scrot
-    xclip
-    maim
-    libnotify
-    blueman
-    lua
-    texliveFull
-    zathura
+      # Util
+      gcc
+      git
+      pamixer #volume control
+      brightnessctl
+      grim
+      slurp
+      unzip
+      android-tools
+      scrot
+      xclip
+      maim
+      libnotify
+      blueman
+      lua
+      texliveFull
+      zathura
+      evtest
+      alsaUtils
 
-    # Terminal
-    vim
-    neovim
-    neofetch
-    htop
-    eza
-    zoxide
-    alacritty
-    zsh
-    starship
-    tmux
-    lazygit
-    cmatrix
+      # Terminal
+      vim
+      neovim
+      neofetch
+      htop
+      eza
+      zoxide
+      alacritty
+      zsh
+      starship
+      tmux
+      lazygit
+      cmatrix
+      tree
 
-    # Apps
-    signal-desktop
-    home-manager
-    discord
-    androidStudioPackages.dev
-    obsidian
-    syncthing
-    keepassxc
+      # Apps
+      signal-desktop
+      home-manager
+      discord
+      androidStudioPackages.dev
+      obsidian
+      syncthing
+      keepassxc
 
-    # i3
-    polybar
-    feh
-    killall
-    rofi
-    pavucontrol
-    pipewire
-    dunst #Notification daemon
-    betterlockscreen
-    i3lock
-    xautolock
+      # i3
+      polybar
+      feh
+      killall
+      rofi
+      pavucontrol
+      pipewire
+      dunst #Notification daemon
+      betterlockscreen
+      i3lock
+      xautolock
 
-    # Hyprland
-    #	waybar
-    #	libnotify
-    #	hyprpaper #Wallpaper daemon
-    #	rofi-wayland
-    #	networkmanagerapplet
-    #	dolphin
-    #	jq
-    #	hyprlock
-    #	hypridle
-    #	clipman
-  ];
+# Hyprland
+#	waybar
+#	libnotify
+#	hyprpaper #Wallpaper daemon
+#	rofi-wayland
+#	networkmanagerapplet
+#	dolphin
+#	jq
+#	hyprlock
+#	hypridle
+#	clipman 
+      ];
 
   users.users = {
     vzkz = {
