@@ -59,6 +59,7 @@
       # Util
       gcc
       git
+      gitflow
       pamixer #volume control
       brightnessctl
       grim
