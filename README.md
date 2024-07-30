@@ -12,7 +12,8 @@
     - [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim)
     - [Telscope](https://github.com/nvim-telescope/telescope.nvim)
     - [Treesitter](https://tree-sitter.github.io/tree-sitter/)
-    - [Vimtex ](https://github.com/lervag/vimtex)
+    - [Vimtex](https://github.com/lervag/vimtex)
+    - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) in combination with nix packages to make LSP work correctly (implemented for Lua, Rust, C, C++ and Kotlin).
 -  Terminal
     - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
     - [Zsh and OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
