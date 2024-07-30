@@ -59,7 +59,6 @@
       # Util
       gcc
       git
-      gitflow
       pamixer #volume control
       brightnessctl
       grim
@@ -76,6 +75,7 @@
       zathura
       evtest
       alsaUtils
+      cargo
 
       # Terminal
       vim
@@ -91,6 +91,12 @@
       lazygit
       cmatrix
       tree
+
+      # LSP
+      sumneko-lua-language-server
+      rust-analyzer
+      clang-tools  
+      kotlin-language-server
 
       # Apps
       signal-desktop
