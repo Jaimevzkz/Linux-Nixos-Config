@@ -6,11 +6,6 @@ pamixer --default-source --toggle-mute
 # Check the status of the Capture device
 MIC_STATUS=$(amixer get Capture | grep '\[off\]')
 
-# Log the status for debugging
-LOGFILE=~/toggle_mic_light.log
-echo "Script executed at $(date)" >> $LOGFILE
-echo "MIC_STATUS=$MIC_STATUS" >> $LOGFILE
-
 if [ -n "$MIC_STATUS" ]; then
   # Microphone is off, turn off the light
   echo 1 | sudo tee /sys/class/leds/platform::micmute/brightness
