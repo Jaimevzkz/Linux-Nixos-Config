@@ -28,7 +28,7 @@
   programs.git = {
     enable = true;
     userName = "Jaimevzkz";
-    userEmail = "jaimepva@ucm.es";
+    userEmail = "jaimevazquezmartin@protonmail.es";
     extraConfig = {
       core.sshCommand = "ssh -i ~/.ssh/id_ed25519";
     };
