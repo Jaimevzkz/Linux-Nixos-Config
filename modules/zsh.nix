@@ -25,6 +25,7 @@
       t = "tmux attach || tmux";
       wifi = "sudo nmtui";
       bluetooth = "blueman-manager";
+      logout = "pkill -KILL -u $USER";
     };
 
     oh-my-zsh = {

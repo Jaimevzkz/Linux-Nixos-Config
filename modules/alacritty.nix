@@ -19,7 +19,8 @@
         bold.family = "FiraCode Nerd Font";
         italic.family = "FiraCode Nerd Font";
         bold_italic.family = "FiraCode Nerd Font";
-        size = 10.0;
+        size = 16.0;
+        #size = 10.0;
       };
       #shell.program = "/run/current-system/sw/bin/zsh";
       shell = {

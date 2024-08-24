@@ -57,7 +57,7 @@
 
   environment.systemPackages = with pkgs; [
 # Util
-    gcc
+      gcc
       git
       pamixer #volume control
       brightnessctl
@@ -130,6 +130,7 @@
       hyprlock
       hypridle
       clipman 
+      wofi
       ];
 
   users.users = {

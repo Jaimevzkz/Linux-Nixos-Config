@@ -23,18 +23,23 @@
 		"custom/left-arrow-dark",
 		"pulseaudio",
 		"custom/left-arrow-light",
+
 		"custom/left-arrow-dark",
 		"memory",
 		"custom/left-arrow-light",
+
 		"custom/left-arrow-dark",
 		"cpu",
 		"custom/left-arrow-light",
+
 		"custom/left-arrow-dark",
 		"battery",
 		"custom/left-arrow-light",
+
 		"custom/left-arrow-dark",
 		"disk",
 		"custom/left-arrow-light",
+
 		"custom/left-arrow-dark",
 		"tray"
 	],
@@ -56,7 +61,7 @@
 		"tooltip": false
 	},
 
-	"sway/workspaces": {
+	"hyprland/workspaces": {
 		"disable-scroll": true,
 		"format": "{name}"
 	},
@@ -68,16 +73,19 @@
 	"clock#2": {
 		"format": "{:%H:%M}",
 		"tooltip": false
-	},
-	"clock#3": {
-		"format": "{:%d-%m}",
-		"tooltip": false
-	},
+  },
+  "clock#3": {
+    "format": "{:%d-%m}",
+    "tooltip": false
+  },
 
-	"pulseaudio": {
-		"format": "{icon} {volume:2}%",
+  "pulseaudio": {
+    "format": "{icon} {volume:2}% {format_source}",
 		"format-bluetooth": "{icon}  {volume}%",
 		"format-muted": "MUTE",
+    //"format-source": "{volume}% 󰍬",
+    "format-source": "󰍬",
+    "format-source-muted": "󰍭",
 		"format-icons": {
 			"headphones": " ",
 			"default": [
