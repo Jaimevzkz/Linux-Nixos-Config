@@ -83,6 +83,7 @@ in
 
       set -g default-terminal "tmux-256color"
       set-option -sa terminal-overrides ",xterm*:Tc" # Keep colors the same
+
       set -g mouse on
       bind k kill-session
       bind ^X lock-server
@@ -119,6 +120,7 @@ in
       bind-key -T copy-mode-vi v send-keys -X begin-selection # vim-like selection
 
       set-option -g status-position top
+
       set -g prefix ^A
       set -g base-index 1              # start indexing windows at 1 instead of 0
       set -g detach-on-destroy off     # don't exit from tmux when closing a session

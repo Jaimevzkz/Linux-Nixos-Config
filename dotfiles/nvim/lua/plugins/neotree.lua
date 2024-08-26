@@ -13,7 +13,9 @@ return {
       enable_git_status = true,
       enable_diagnostics = true,
       filesystem = {
-        follow_current_file = true,
+        follow_current_file = {
+          true,
+        },
         hijack_netrw_behavior = "open_current",
       },
       window = {

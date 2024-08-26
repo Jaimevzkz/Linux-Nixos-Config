@@ -1,3 +1,4 @@
+@import "../mocha.css";
 * {
 	font-size: 20px;
 	font-family: monospace;
@@ -37,6 +38,7 @@ window#waybar {
 }
 #workspaces button.active {
 	color: #268bd2;
+	/*color: @mauve;*/
 }
 #workspaces button:hover {
 	box-shadow: inherit;
@@ -50,18 +52,24 @@ window#waybar {
 
 #pulseaudio {
 	color: #268bd2;
+	/*color: @sky;*/
 }
 #memory {
 	color: #2aa198;
+	/*color: @green;*/
 }
 #cpu {
 	color: #6c71c4;
+	/*color: @peach;*/
 }
 #battery {
 	color: #859900;
+	/*color: @flamingo;*/
+
 }
 #disk {
 	color: #b58900;
+	/*color: @teal;*/
 }
 
 #clock,
