@@ -32,7 +32,7 @@
 - Copy your hardware configuration to this repository (replacing de one that exists): `cp /etc/nixos/hardware-configuration.nix ~/Linux-Nixos-Config/`.
 - run the command to rebuild your system using the flake.nix: `sudo nixos-rebuild switch --flake ~/Linux-Nixos-Config/#nixos-config`.
 - [Optional] Change the directory name to be called nixos (to make the alias `update` work): `mv ~/Linux-Nixos-Config/ ~/nixos/`.
-- Reboot your system and use gdm to open i3 Tiling window manager: `sudo reboot`.
+- Reboot your system and use gdm to choose between hyprland and i3 Tiling window manager: `sudo reboot`.
 - With the above steps you should have a fully fuctional Linux-Nixos distribution, that's right, just like that!
 ## Credits
 A lot of the code and inspiraton of this repository has been developed following videos of the content creator [Typecraft](https://www.youtube.com/@typecraft_dev). 
