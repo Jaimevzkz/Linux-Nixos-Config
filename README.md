@@ -1,5 +1,6 @@
 # Welcome to my Dotfiles!
 ![Header](./SystemPreview_hypr.png)
+![Header](./SystemPreview_i3.png)
 ## Tech Stack
 - Hyprland Tiling Window Manager
   - [waybar](https://github.com/Alexays/Waybar): Customizable status bar.
