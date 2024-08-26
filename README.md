@@ -1,6 +1,12 @@
 # Welcome to my Dotfiles!
-![Header](./SystemPreview.png)
+![Header](./SystemPreview_hypr.png)
+![Header](./SystemPreview_i3.png)
 ## Tech Stack
+- Hyprland Tiling Window Manager
+  - [waybar](https://github.com/Alexays/Waybar): Customizable status bar.
+  - [hypridle](https://github.com/hyprwm/hypridle): Idle daemon.
+  - [hyprlock](https://github.com/hyprwm/hyprlock/): GPU-accelerated screen locking utility.
+  - [hyprpaper](https://github.com/hyprwm/hyprpaper): Wallpaper utility with IPC controls.
 - i3 Tiling Window Manager
   - [Picom](https://github.com/yshui/picom): A lightweight compositor for X.
   - [Polybar](https://github.com/polybar/polybar): A fast and easy-to-use status bar.
