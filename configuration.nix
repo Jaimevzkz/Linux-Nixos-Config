@@ -132,6 +132,8 @@
       hypridle
       clipman 
       wofi
+      hyprshot
+
       ];
 
   users.users = {
