@@ -49,7 +49,6 @@
   fonts.packages = with pkgs; [
       fira-code-nerdfont
       font-awesome
-      nerdfonts
   ];
 
   networking.hostName = "nixos";
@@ -71,7 +70,7 @@ environment.systemPackages = with pkgs; [ # Util gcc
       libnotify
       blueman
       lua
-      texliveFull
+      #texliveFull
       zathura
       evtest
       alsaUtils
