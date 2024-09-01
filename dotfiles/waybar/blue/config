@@ -6,6 +6,9 @@
 
 	"modules-left": [
 		"hyprland/workspaces",
+		"custom/right-arrow-dark",
+		"custom/right-arrow-light",
+    "network",
 		"custom/right-arrow-dark"
 	],
 	"modules-center": [
@@ -37,11 +40,7 @@
 		"custom/left-arrow-light",
 
 		"custom/left-arrow-dark",
-		"disk",
-		"custom/left-arrow-light",
-
-		"custom/left-arrow-dark",
-		"tray"
+		"disk"
 	],
 
 	"custom/left-arrow-dark": {
@@ -123,12 +122,21 @@
 		]
 	},
 	"disk": {
-		"interval": 5,
-		//"format": "Disk {percentage_used:2}%",
-		"format": " {percentage_used:2}%",
-		"path": "/"
-	},
-	"tray": {
-		"icon-size": 25
-	}
+    "interval": 5,
+    //"format": "Disk {percentage_used:2}%",
+    "format": " {percentage_used:2}%",
+    "path": "/"
+  },
+  "network": {
+    "interface": "wlp2s0",
+    "format": "{ifname}",
+    "format-wifi": "   {essid} ({signalStrength}%)",
+    "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+    "format-disconnected": "", //An empty format will hide the module.
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  }
 }

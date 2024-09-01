@@ -32,14 +32,17 @@
       enable = true;
       theme = "robbyrussell";
       plugins = [
-	"git"
+        "git"
       ];
     };
 
     history = {
       size = 10000;
     };
+    initExtra = ''
+      if command -v fastfetch &> /dev/null; then
+        fastfetch
+      fi
+    '';
   };
-
-
 }

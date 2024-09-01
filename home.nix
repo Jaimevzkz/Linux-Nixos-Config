@@ -14,10 +14,6 @@
     pkgs.hello
   ];
 
-  home.file = {
-
-  };
-
 # Zoxide
   programs.zoxide = {
     enable = true;
