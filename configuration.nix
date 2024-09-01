@@ -49,6 +49,7 @@
   fonts.packages = with pkgs; [
       fira-code-nerdfont
       font-awesome
+      nerdfonts
   ];
 
   networking.hostName = "nixos";
@@ -56,10 +57,7 @@
   programs.firefox.enable = true;
  # services.blueman.enable = true;
  # services.bluetooth.enable = true;
-
-  environment.systemPackages = with pkgs; [
-# Util
-      gcc
+environment.systemPackages = with pkgs; [ # Util gcc
       git
       pamixer #volume control
       brightnessctl

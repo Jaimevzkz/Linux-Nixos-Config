@@ -17,7 +17,18 @@
         bold.family = "FiraCode Nerd Font";
         italic.family = "FiraCode Nerd Font";
         bold_italic.family = "FiraCode Nerd Font";
-        size = 16.0;
+
+        #normal.family = "MesloLGSDZ Nerd Font Mono";
+        #bold.family = "MesloLGS Nerd Font Mono";
+        #italic.family = "MesloLGS Nerd Font Mono";
+        #bold_italic.family = "MesloLGS Nerd Font Mono";
+
+        #normal.family = "JetBrainsMono Nerd Font";
+        #bold.family = "JetBrainsMono Nerd Font";
+        #italic.family = "JetBrainsMono Nerd Font";
+        #bold_italic.family = "JetBrainsMono Nerd Font";
+
+        size = 14.0;
         #size = 10.0;
       };
       #shell.program = "/run/current-system/sw/bin/zsh";
