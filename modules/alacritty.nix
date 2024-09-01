@@ -8,6 +8,7 @@
     settings = {
       window = {
         opacity = 0.9;
+        padding = 5;
         decorations = "none";
         decorations_theme_variant = "Dark";
         startup_mode = "maximized";
