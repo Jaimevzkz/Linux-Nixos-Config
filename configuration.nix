@@ -125,8 +125,7 @@ environment.systemPackages = with pkgs; [ # Util gcc
 # Hyprland
       waybar
       libnotify
-      hyprpaper #Wallpaper daemon
-      rofi-wayland
+      #hyprpaper 
       networkmanagerapplet
       dolphin
       jq
