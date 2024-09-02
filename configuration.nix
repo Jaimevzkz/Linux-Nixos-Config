@@ -37,12 +37,12 @@
   services.xserver.desktopManager.gnome.enable = true;
 
 # Enable Hyprland tiling window manager
-  programs.hyprland = {
-    enable = true;
-    xwayland.enable = true;
-  };
-  programs.waybar.enable = true;
-  xdg.portal.enable = true;
+  #programs.hyprland = {
+    #enable = true;
+    #xwayland.enable = true;
+  #};
+  #programs.waybar.enable = true;
+ # xdg.portal.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
@@ -55,10 +55,9 @@
 
   programs.firefox.enable = true;
  # services.blueman.enable = true;
- # services.bluetooth.enable = true;
 environment.systemPackages = with pkgs; [ # Util gcc
       git
-      pamixer #volume control
+      pamixer
       brightnessctl
       grim
       slurp
@@ -70,7 +69,7 @@ environment.systemPackages = with pkgs; [ # Util gcc
       libnotify
       blueman
       lua
-      #texliveFull
+      texliveFull
       zathura
       evtest
       alsaUtils
@@ -116,7 +115,7 @@ environment.systemPackages = with pkgs; [ # Util gcc
       rofi
       pavucontrol
       pipewire
-      dunst #Notification daemon
+      dunst 
       betterlockscreen
       i3lock
       xautolock
