@@ -36,12 +36,12 @@
   services.xserver.desktopManager.gnome.enable = true;
 
 # Enable Hyprland tiling window manager
-  #programs.hyprland = {
-    #enable = true;
-    #xwayland.enable = true;
-  #};
+  programs.hyprland = {
+    enable = true;
+    xwayland.enable = true;
+  };
   programs.waybar.enable = true;
-  #xdg.portal.enable = true;
+  xdg.portal.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
@@ -125,7 +125,7 @@ environment.systemPackages = with pkgs; [
 # Hyprland
       waybar
       libnotify
-      #hyprpaper 
+      hyprpaper 
       networkmanagerapplet
       dolphin
       jq
