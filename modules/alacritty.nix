@@ -28,7 +28,7 @@
         #italic.family = "JetBrainsMono Nerd Font";
         #bold_italic.family = "JetBrainsMono Nerd Font";
 
-        size = 14.0;
+        size = 11.0;
         #size = 10.0;
       };
       #shell.program = "/run/current-system/sw/bin/zsh";

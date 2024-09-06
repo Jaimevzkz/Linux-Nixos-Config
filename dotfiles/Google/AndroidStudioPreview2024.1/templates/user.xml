@@ -1,0 +1,18 @@
+<templateSet group="user">
+  <template name="testRepositorySetUp" value="    private val testDispatcher = StandardTestDispatcher()&#10;&#10;    @get:Rule&#10;    val coroutineRule = CoroutineRule(testDispatcher)&#10;&#10;    @RelaxedMockK&#10;    private lateinit var localDbRepository: LocalDbRepository&#10;&#10;    @RelaxedMockK&#10;    private lateinit var salamandraApiService: SalamandraApiService&#10;&#10;    private var retrofitExceptionHandler = RetrofitExceptionHandler()&#10;&#10;    @RelaxedMockK&#10;    private lateinit var dataStoreRepository: DataStoreRepository&#10;&#10;    @Before&#10;    fun setUp() {&#10;        MockKAnnotations.init(this)&#10;        mockkStatic(Log::class)&#10;        every { Log.i(any(), any()) } returns 0&#10;        every { Log.e(any(), any()) } returns 0&#10;    }" description="Sets up test dispatcher and coroutine rule" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="testViewmodelSetUp" value="    private val testDispatcher = StandardTestDispatcher()&#10;&#10;    @get:Rule&#10;    val coroutineRule = CoroutineRule(testDispatcher)&#10;&#10;    private lateinit var registerViewmodel: RegisterViewModel&#10;&#10;    @RelaxedMockK&#10;    private lateinit var repository: Repository&#10;    &#10;    private lateinit var savedStateHandle: SavedStateHandle&#10;&#10;    @Before&#10;    fun setUp() {&#10;        MockKAnnotations.init(this)&#10;        savedStateHandle = mockk(relaxed = true)&#10;        val mockNavArgs = EditWkNavArgs(&#10;            emptyArray()&#10;        )&#10;        every { savedStateHandle.get&lt;Array&lt;String&gt;&gt;(&quot;addedExercises&quot;) } returns mockNavArgs.addedExercises&#10;    }&#10;    &#10;    @Test&#10;    fun `Assert initial state`() {&#10;        val expectedState = RegisterState(&#10;            error = null,&#10;            username = &quot;&quot;,&#10;            email = &quot;&quot;,&#10;            password = &quot;&quot;,&#10;            isEmailValid = true,&#10;            passwordFormatError = null&#10;        )&#10;        assert(RegisterState.initial == expectedState)&#10;    }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="testCreate" value=" @Test&#10;    fun `$testName$`() = runTest {&#10;        // Arrange&#10;&#10;        // Act&#10;&#10;        // Assert&#10;    }" description="Create the template for a single test" toReformat="false" toShortenFQNames="true">
+    <variable name="testName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

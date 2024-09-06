@@ -24,7 +24,6 @@
 
 # Enable xserver
   services.xserver.enable = true;
-#  services.xserver.dpi = 130;
 
 # Enable i3 window manager
   services.xserver.windowManager.i3.enable = true;
@@ -41,8 +40,8 @@
     #enable = true;
     #xwayland.enable = true;
   #};
-  #programs.waybar.enable = true;
- # xdg.portal.enable = true;
+  programs.waybar.enable = true;
+  #xdg.portal.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
@@ -55,7 +54,10 @@
 
   programs.firefox.enable = true;
  # services.blueman.enable = true;
-environment.systemPackages = with pkgs; [ # Util gcc
+environment.systemPackages = with pkgs; [ 
+# Util 
+      cmake
+      gcc
       git
       pamixer
       brightnessctl

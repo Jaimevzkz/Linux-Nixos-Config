@@ -1,0 +1,13 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Downloads" value="true" />
+        <entry key="$USER_HOME$/Own_Projects/Salamandra/android" value="true" />
+        <entry key="$USER_HOME$/Own_Projects/kotlin_WorkSpace/ProFinder" value="true" />
+        <entry key="$USER_HOME$/Own_Projects/kotlin_WorkSpace/TiledMedia_Challenge" value="true" />
+        <entry key="$USER_HOME$/Own_Projects/kotlin_WorkSpace/boredom-buster" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

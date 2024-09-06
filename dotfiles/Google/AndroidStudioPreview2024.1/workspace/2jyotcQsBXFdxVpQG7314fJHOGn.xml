@@ -1,0 +1,209 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="ProFinder" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="1z8dm55ayz37m" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="text-editor" selected="true">
+            <state>
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="176">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "XML": {
+      "usageCount": 2,
+      "lastUsed": 1722416929106
+    },
+    "JSON": {
+      "usageCount": 1,
+      "lastUsed": 1722369710065
+    },
+    "Image": {
+      "usageCount": 4,
+      "lastUsed": 1722371074954
+    },
+    "Properties": {
+      "usageCount": 2,
+      "lastUsed": 1722416928559
+    },
+    "Markdown": {
+      "usageCount": 2,
+      "lastUsed": 1722416928996
+    }
+  }
+}]]></component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/local.properties" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JSON">
+      <summary usageCount="1" lastUsage="1722369710065" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="2" lastUsage="1722416928996" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="2" lastUsage="1722416928561" />
+    </language>
+    <language id="XML">
+      <summary usageCount="2" lastUsage="1722416929106" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vzkz/Own_Projects/kotlin_WorkSpace/ProFinder}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/vzkz/Own_Projects/kotlin_WorkSpace/ProFinder}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/vzkz/Own_Projects/kotlin_WorkSpace/ProFinder/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Android App.app" />
+    </history>
+  </component>
+  <component name="SplittingTabsState">
+    <tool-windows>
+      <tool-window id="Logcat" selected-tab="0">
+        <tabs>
+          <tab name="Logcat">
+            <content>
+              <panel>{'device':{'deviceId':'Pixel_8_Pro_API_35','name':'Pixel 8 Pro API 35','serialNumber':'emulator-5554','isOnline':false,'release':'15','sdk':35,'featureLevel':35,'model':'','type':'HANDHELD','isEmulator':true},'formattingConfig':{'preset':'STANDARD'},'filter':'package:mine ','filterMatchCase':false,'isSoftWrap':false}</panel>
+            </content>
+          </tab>
+        </tabs>
+      </tool-window>
+    </tool-windows>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18971816" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Resources Explorer" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Problems" order="2" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="Logcat" order="4" weight="0.33034188" />
+      <window_info anchor="bottom" id="App Quality Insights" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.33034188" />
+      <window_info anchor="bottom" id="Debug" order="8" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.25026095" />
+      <window_info anchor="right" id="Device Manager" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device Manager 2" order="3" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="4" visible="true" weight="0.25026095" />
+      <window_info anchor="right" id="StudioBot" order="5" weight="0.25" />
+      <unified_weights bottom="0.33034188" left="0.18971816" right="0.25026095" />
+    </layoutV2>
+    <recentWindows>
+      <value>Running Devices</value>
+      <value>Logcat</value>
+      <value>Project</value>
+      <value>Build</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="356" width="428" height="514" key="FileChooserDialogImpl" timestamp="1722371074825">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="743" y="356" width="428" height="514" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1722371074825" />
+    <state x="707" y="253" width="499" height="719" key="ScreenshotViewer.Dimensions" timestamp="1722371074970">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="707" y="253" width="499" height="719" key="ScreenshotViewer.Dimensions/0.0.1920.1200@0.0.1920.1200" timestamp="1722371074970" />
+    <state x="623" y="280" width="675" height="709" key="search.everywhere.popup" timestamp="1722369327999">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="623" y="280" width="675" height="709" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1722369327999" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/seeProfile.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Screenshot_20240730_202059.png" />
+    <entry file="file://$USER_HOME$/Downloads/home.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Screenshot_20240730_202433.png" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

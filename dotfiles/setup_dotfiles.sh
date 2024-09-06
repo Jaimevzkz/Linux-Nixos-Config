@@ -4,7 +4,7 @@ DOTFILES_DIR=~/nixos/dotfiles
 
 # List of directories to link
 # "waybar" "hypr"
-CONFIG_DIRS=("nvim" "i3" "polybar" "picom" "rofi" "hypr" "waybar" "wofi" "fastfetch")  # Add other directories as needed
+CONFIG_DIRS=("nvim" "i3" "polybar" "picom" "rofi" "hypr" "waybar" "wofi" "fastfetch" "Google")  # Add other directories as needed
 HOME_DIRS=("wallpaper")  # Add other directories as needed
 
 # Create symbolic links

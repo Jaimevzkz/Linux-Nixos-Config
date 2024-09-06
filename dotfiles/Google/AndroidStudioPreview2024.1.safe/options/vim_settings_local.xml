@@ -1,0 +1,288 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">XDxDaGFuZ2VTZWFyY2hUZXJtXD4=</entry>
+      </history-search>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="My Application-b76d3390">
+      <jump line="18" column="26" filename="$USER_HOME$/Downloads/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="31" column="0" filename="$USER_HOME$/Downloads/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+      <jump line="25" column="20" filename="$USER_HOME$/Downloads/app/src/main/java/com/example/myapplication/MainActivity.kt" protocol="file" />
+    </project>
+    <project id="Salamandra-69d102bd">
+      <jump line="80" column="73" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="37" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="41" column="116" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="34" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/SalamandraApiService.kt" protocol="file" />
+      <jump line="33" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/SalamandraApiService.kt" protocol="file" />
+      <jump line="13" column="33" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/WorkoutTemplateResponse.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/WkTemplateResponse.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/WorkoutTemplateResponse.kt" protocol="file" />
+      <jump line="24" column="20" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/request/CreateWorkoutTemplateRequest.kt" protocol="file" />
+      <jump line="47" column="64" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="46" column="64" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="49" column="16" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="11" column="18" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/WorkoutTemplateResponse.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/ExerciseResponse.kt" protocol="file" />
+      <jump line="12" column="11" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/UserResponse.kt" protocol="file" />
+      <jump line="19" column="29" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/di/NetworkModule.kt" protocol="file" />
+      <jump line="24" column="187" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/di/NetworkModule.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="85" column="5" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="64" column="66" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="84" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="88" column="38" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="115" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="95" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="36" column="38" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="44" column="68" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="100" column="127" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="101" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="41" column="43" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="97" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="45" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="60" column="51" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="62" column="8" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="63" column="69" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="22" column="18" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="24" column="5" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="23" column="18" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="73" column="17" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="80" column="32" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="70" column="37" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="69" column="40" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="71" column="106" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="79" column="46" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="64" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="33" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/sqldelight/user/UserEntity.sq" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/sqldelight/workout/WorkoutTemplateElementEntity.sq" protocol="file" />
+      <jump line="26" column="41" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/sqldelight/workout/WorkoutTemplateElementEntity.sq" protocol="file" />
+      <jump line="23" column="16" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="103" column="186" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="27" column="35" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/sqldelight/workout/WorkoutTemplateElementEntity.sq" protocol="file" />
+      <jump line="57" column="5" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="56" column="75" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="60" column="42" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="55" column="62" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" protocol="file" />
+      <jump line="75" column="13" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="74" column="17" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="77" column="87" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="78" column="44" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="89" column="38" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="88" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="100" column="29" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="92" column="16" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="93" column="70" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="94" column="28" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="89" column="87" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="21" column="26" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/search/presentation/SearchContract.kt" protocol="file" />
+      <jump line="25" column="5" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/search/presentation/SearchContract.kt" protocol="file" />
+      <jump line="93" column="30" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="96" column="16" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="52" column="28" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkContract.kt" protocol="file" />
+      <jump line="63" column="2" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkContract.kt" protocol="file" />
+      <jump line="35" column="18" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/presentation/SeeWkViewModel.kt" protocol="file" />
+      <jump line="62" column="10" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkContract.kt" protocol="file" />
+      <jump line="73" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="75" column="8" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="99" column="26" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="90" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="74" column="24" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="98" column="19" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="96" column="59" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="92" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="67" column="33" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="83" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="68" column="49" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="105" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" protocol="file" />
+      <jump line="72" column="44" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="81" column="42" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="95" column="19" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" protocol="file" />
+      <jump line="29" column="22" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/SalamandraApiService.kt" protocol="file" />
+      <jump line="32" column="4" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/SalamandraApiService.kt" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="44" column="0" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="31" column="24" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/SalamandraApiService.kt" protocol="file" />
+      <jump line="28" column="22" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/SalamandraApiService.kt" protocol="file" />
+      <jump line="28" column="98" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="36" column="120" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="26" column="8" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/data/RepositoryImpl.kt" protocol="file" />
+      <jump line="7" column="11" filename="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/domain/model/Exercise.kt" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/ExerciseResponse.kt" timestamp="1721131868748">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/sqldelight/workout/WorkoutTemplateElementEntity.sq" timestamp="1721227140700">
+        <mark key="&quot;" line="27" column="35" />
+        <mark key="[" line="27" column="34" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkViewModel.kt" timestamp="1721228765801">
+        <mark key="&quot;" line="95" column="19" />
+        <mark key="^" line="73" column="28" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/data/RepositoryImpl.kt" timestamp="1721229120958">
+        <mark key="&quot;" line="28" column="0" />
+        <mark key="[" line="26" column="117" />
+        <mark key="]" line="26" column="139" />
+        <mark key="^" line="26" column="139" />
+        <mark key="." line="26" column="138" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/di/NetworkModule.kt" timestamp="1721131865410">
+        <mark key="&quot;" line="24" column="187" />
+        <mark key="[" line="24" column="164" />
+        <mark key="]" line="24" column="138" />
+        <mark key="." line="24" column="137" />
+        <mark key="^" line="24" column="138" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/components/EditWkBannerTopRow.kt" timestamp="1721128609956">
+        <mark key="&quot;" line="37" column="17" />
+        <mark key="[" line="35" column="51" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/request/CreateWorkoutTemplateRequest.kt" timestamp="1721131866911">
+        <mark key="&quot;" line="24" column="20" />
+        <mark key="[" line="32" column="22" />
+        <mark key="]" line="24" column="0" />
+        <mark key="." line="24" column="0" />
+        <mark key="^" line="24" column="1" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/sqlDelight/workoutTemplate/WorkoutTemplateElementDataSource.kt" timestamp="1721227140694">
+        <mark key="&quot;" line="55" column="62" />
+        <mark key="[" line="56" column="12" />
+        <mark key="]" line="56" column="37" />
+        <mark key="^" line="56" column="37" />
+        <mark key="." line="56" column="36" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/search/presentation/SearchContract.kt" timestamp="1721134745131">
+        <mark key="&quot;" line="25" column="5" />
+        <mark key="[" line="25" column="2" />
+        <mark key="]" line="25" column="3" />
+        <mark key="^" line="38" column="29" />
+        <mark key="." line="25" column="3" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/domain/model/workout/WorkoutTemplate.kt" timestamp="1721129390331">
+        <mark key="&quot;" line="4" column="25" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/seeWk/presentation/SeeWkViewModel.kt" timestamp="1721227356303">
+        <mark key="&quot;" line="35" column="18" />
+        <mark key="'" line="37" column="20" />
+        <mark key="[" line="40" column="20" />
+        <mark key="]" line="41" column="0" />
+        <mark key="." line="39" column="72" />
+        <mark key="^" line="20" column="54" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/domain/model/workout/WkTemplateElement.kt" timestamp="1721129390746">
+        <mark key="&quot;" line="13" column="20" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/data/RepositoryImpl.kt" timestamp="1721228766050">
+        <mark key="&quot;" line="81" column="42" />
+        <mark key="[" line="67" column="34" />
+        <mark key="]" line="98" column="16" />
+        <mark key="." line="98" column="15" />
+        <mark key="^" line="98" column="16" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/components/EditTagRow.kt" timestamp="1721128611284">
+        <mark key="&quot;" line="97" column="47" />
+        <mark key="[" line="101" column="24" />
+        <mark key="]" line="101" column="24" />
+        <mark key="." line="101" column="24" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/LocalDbRepositoryImpl.kt" timestamp="1721228766251">
+        <mark key="&quot;" line="105" column="4" />
+        <mark key="[" line="103" column="208" />
+        <mark key="]" line="103" column="12" />
+        <mark key="." line="103" column="11" />
+        <mark key="^" line="103" column="12" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/workouts/editWk/presentation/EditWkContract.kt" timestamp="1721227366914">
+        <mark key="&quot;" line="62" column="10" />
+        <mark key="[" line="62" column="11" />
+        <mark key="]" line="62" column="11" />
+        <mark key="^" line="51" column="4" />
+        <mark key="." line="62" column="11" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/sqldelight/user/UserEntity.sq" timestamp="1721133515590">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/WorkoutTemplateResponse.kt" timestamp="1721131866475">
+        <mark key="&quot;" line="11" column="18" />
+        <mark key="[" line="11" column="20" />
+        <mark key="]" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+        <mark key="^" line="16" column="36" />
+      </file>
+      <file name="$USER_HOME$/Own_Projects/Salamandra/android/app/src/main/java/com/android/salamandra/_core/data/network/response/UserResponse.kt" timestamp="1721131869617">
+        <mark key="&quot;" line="12" column="11" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="CHARACTER_WISE">
+        <text encoding="base64">ewogICAKfQ==</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">Ly90b2RvIHN0b3JlIHRlbXBvcmFsIGVsZW1lbnRz</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">XDxDaGFuZ2VTZWFyY2hUZXJtXD4=</text>
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVtcHR5TGlzdDxXa1RlbXBsYXRlRWxlbWVudD4oKQo=</text>
+      </register>
+      <register name="1" type="CHARACTER_WISE">
+        <text encoding="base64">ewogICAKfQ==</text>
+      </register>
+      <register name="2" type="CHARACTER_WISE">
+        <text encoding="base64">IG92ZXJyaWRlIGZ1biBlcXVhbHMob3RoZXI6IEFueT8pOiBCb29sZWFuIHsKICAgICAgICBpZiAodGhpcyA9PT0gb3RoZXIpIHJldHVybiB0cnVlCiAgICAgICAgaWYgKGphdmFDbGFzcyAhPSBvdGhlcj8uamF2YUNsYXNzKSByZXR1cm4gZmFsc2UKCiAgICAgICAgb3RoZXIgYXMgRWRpdFdrTmF2QXJncwoKICAgICAgICByZXR1cm4gYWRkZWRFeGVyY2lzZXMuY29udGVudEVxdWFscyhvdGhlci5hZGRlZEV4ZXJjaXNlcykKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaGFzaENvZGUoKTogSW50IHsKICAgICAgICByZXR1cm4gYWRkZWRFeGVyY2lzZXMuY29udGVudEhhc2hDb2RlKCkKICAgIH0=</text>
+      </register>
+      <register name="3" type="CHARACTER_WISE">
+        <text encoding="base64">IG92ZXJyaWRlIGZ1biBlcXVhbHMob3RoZXI6IEFueT8pOiBCb29sZWFuIHsKICAgICAgICBpZiAodGhpcyA9PT0gb3RoZXIpIHJldHVybiB0cnVlCiAgICAgICAgaWYgKGphdmFDbGFzcyAhPSBvdGhlcj8uamF2YUNsYXNzKSByZXR1cm4gZmFsc2UKCiAgICAgICAgb3RoZXIgYXMgU2VhcmNoU3RhdGUKCiAgICAgICAgcmV0dXJuIGFkZGVkRXhlcmNpc2VzSWRzLmNvbnRlbnRFcXVhbHMob3RoZXIuYWRkZWRFeGVyY2lzZXNJZHMpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGhhc2hDb2RlKCk6IEludCB7CiAgICAgICAgcmV0dXJuIGFkZGVkRXhlcmNpc2VzSWRzLmNvbnRlbnRIYXNoQ29kZSgpCiAgICB9</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgZW1wdHlMaXN0PFdrVGVtcGxhdGVFbGVtZW50PigpCg==</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGl0LnRvV2tUZW1wbGF0ZUVsZW1lbnQoKSAK</text>
+      </register>
+      <register name="w" type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">ICAgIHByaXZhdGUgY29uc3QgdmFsIFRFTVBPUkFSWV9TQVZFRF9FTEVNRU5UU19JRCA9ICJURU1QT1JBTCIK</text>
+      </register>
+      <register name="8" type="CHARACTER_WISE">
+        <text encoding="base64">ewogICAgICAgIHJldHVybiB3aXRoQ29udGV4dChpb0Rpc3BhdGNoZXIpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIFJlc3VsdC5TdWNjZXNzKHF1ZXJpZXMuZ2V0QWxsRWxlbWVudHNPZldrKHdrVGVtcGxhdGVJZCA9IHdrVGVtcGxhdGVJZCkuZXhlY3V0ZUFzTGlzdCgpKQoKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cuZSgiU0xNIiwgIiR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgICAgICBSZXN1bHQuRXJyb3IoRGF0YUVycm9yLkxvY2FsLldPUktPVVRfVEVNUExBVEVfRUxFTUVOVF9OT1RfRk9VTkQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAK</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">XDxDaGFuZ2VTZWFyY2hUZXJtXD4=</last-search>
+      <last-offset encoding="base64" />
+      <last-pattern encoding="base64">XDxDaGFuZ2VTZWFyY2hUZXJtXD4=</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

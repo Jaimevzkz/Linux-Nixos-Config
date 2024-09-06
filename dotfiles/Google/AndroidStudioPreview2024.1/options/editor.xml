@@ -1,0 +1,16 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+  </component>
+  <component name="CodeVisionSettings">
+    <option name="defaultPosition" value="Right" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="AUTOREPARSE_DELAY" value="0" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.kt; *.kts;" />
+    <option name="LINE_NUMERATION" value="HYBRID" />
+  </component>
+</application>
