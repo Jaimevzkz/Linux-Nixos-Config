@@ -35,6 +35,7 @@ case $CONFIG_NUMBER in
         exit 1
         ;;
 esac
+
 # Launch Waybar with custom config and style
-waybar -c "$WAYBAR_CONFIG" -s "$WAYBAR_STYLE" &
+waybar -c "$WAYBAR_CONFIG" -s "$WAYBAR_STYLE" & disown
 

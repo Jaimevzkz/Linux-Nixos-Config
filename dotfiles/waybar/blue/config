@@ -24,6 +24,10 @@
 	],
 	"modules-right": [
 		"custom/left-arrow-dark",
+		"backlight",
+		"custom/left-arrow-light",
+
+		"custom/left-arrow-dark",
 		"pulseaudio",
 		"custom/left-arrow-light",
 
@@ -71,11 +75,17 @@
 	},
 	"clock#2": {
 		"format": "{:%H:%M}",
-		"tooltip": false
+    "tooltip": false
   },
   "clock#3": {
     "format": "{:%d-%m}",
     "tooltip": false
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{percent}% {icon}",
+    "format-icons": [" ", " "]
   },
 
   "pulseaudio": {
@@ -107,12 +117,14 @@
 		"format": " {usage:2}%"
 	},
 	"battery": {
+    "interval": 5,
 		"states": {
 			"good": 95,
 			"warning": 30,
 			"critical": 15
 		},
 		"format": "{icon} {capacity}%",
+    "format-charging": "{capacity}%  ",
 		"format-icons": [
 			" ",
 			" ",

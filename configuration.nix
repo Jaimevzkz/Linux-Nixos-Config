@@ -104,7 +104,8 @@ environment.systemPackages = with pkgs; [
 # Apps
       signal-desktop
       home-manager
-      discord
+      #discord
+      webcord
       androidStudioPackages.dev
       obsidian
       syncthing
