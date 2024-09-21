@@ -54,7 +54,8 @@ window#waybar {
 }
 
 #backlight{
-	color: #e26161;
+	/*color: #e26161;*/
+	color: #fdfd96;
 	/*color: @sky;*/
 }
 

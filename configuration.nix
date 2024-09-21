@@ -79,6 +79,8 @@ environment.systemPackages = with pkgs; [
       wl-clipboard-x11
       wireplumber
       fastfetch
+      openssl
+      libreoffice
 
 # Terminal
       vim
@@ -94,6 +96,7 @@ environment.systemPackages = with pkgs; [
       lazygit
       cmatrix
       tree
+      kitty
 
 # LSP
       sumneko-lua-language-server
@@ -186,7 +189,9 @@ environment.systemPackages = with pkgs; [
   services.xserver.xkb = {
     layout = "us";
     variant = "intl";
+    options = "ctrl:nocaps";
   };
+
 
 # Enable CUPS to print documents.
   services.printing.enable = true;
