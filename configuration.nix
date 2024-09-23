@@ -68,7 +68,6 @@ environment.systemPackages = with pkgs; [
       scrot
       xclip
       maim
-      libnotify
       blueman
       lua
       texliveFull
@@ -131,14 +130,11 @@ environment.systemPackages = with pkgs; [
       libnotify
       hyprpaper 
       networkmanagerapplet
-      dolphin
-      jq
       hyprlock
       hypridle
       clipman 
       wofi
       hyprshot
-
       ];
 
   users.users = {
