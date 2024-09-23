@@ -4,7 +4,7 @@
     ./modules/zsh.nix
     ./modules/alacritty.nix
     ./modules/starship.nix
-    ./modules/tmux.nix
+    #./modules/tmux.nix
     #./modules/i3.nix
   ];
   home.username = "vzkz";
