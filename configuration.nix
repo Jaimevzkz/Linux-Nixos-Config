@@ -3,7 +3,11 @@
     config,
     pkgs,
     ...
-}: {
+}:
+let
+machineSpecific = import ./machine-specific.nix;
+in
+{
   imports = [
     ./hardware-configuration.nix
       inputs.home-manager.nixosModules.home-manager
@@ -102,6 +106,7 @@ environment.systemPackages = with pkgs; [
       rust-analyzer
       clang-tools  
       kotlin-language-server
+      stylua
 
 # Apps
       signal-desktop
@@ -211,5 +216,6 @@ environment.systemPackages = with pkgs; [
   };
 
 # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
-  system.stateVersion = "23.05";
+  #system.stateVersion = "23.05";
+  system.stateVersion = machineSpecific.system.stateVersion;
 }

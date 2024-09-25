@@ -18,15 +18,16 @@ return {
     "neovim/nvim-lspconfig",
     config = function()
       local lspconfig = require("lspconfig")
+
       -- LSP commands
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
       vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
-      -- Languages
+
+      -- Languages // Use the NixOS-provided server
       -- Lua
       lspconfig.lua_ls.setup({
-        cmd = { "lua-language-server" },  -- Use the NixOS-provided server
-      })
+        cmd = { "lua-language-server" },        })
       -- Rust
       lspconfig.rust_analyzer.setup({
         cmd = { "rust-analyzer" },
