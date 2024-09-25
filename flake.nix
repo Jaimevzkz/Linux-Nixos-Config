@@ -10,29 +10,23 @@
     };
   };
 
-  outputs = {self, nixpkgs,...}@inputs:
-    let
+  outputs = { self, nixpkgs, ... } @ inputs:
+  let
     system = "x86_64-linux";
-  pkgs = import nixpkgs {
-    inherit system;
-    config = {allowUnfree = true;};
-  };
-# Check if machine-specific.nix exists and import it if present
-  machineSpecific = 
-    if builtins.pathExists ./machine-specific.nix
-      then import ./machine-specific.nix
-    else {};
-  in
-  {
+    pkgs = import nixpkgs {
+      inherit system;
+      config = { allowUnfree = true; };
+    };
+
+  in {
     nixosConfigurations = {
       nixos-config = nixpkgs.lib.nixosSystem {
-        specialArgs = {inherit inputs system;};
+        specialArgs = { inherit inputs system; };
         modules = [
           ./configuration.nix
-          machineSpecific
         ];
       };
     };
   };
-
 }
+
