@@ -2,12 +2,12 @@
 ![Header](./SystemPreview_hypr.png)
 ![Header](./SystemPreview_i3.png)
 ## Tech Stack
-- Hyprland Tiling Window Manager
+- Hyprland Tiling Window Manager.
   - [waybar](https://github.com/Alexays/Waybar): Customizable status bar.
   - [hypridle](https://github.com/hyprwm/hypridle): Idle daemon.
   - [hyprlock](https://github.com/hyprwm/hyprlock/): GPU-accelerated screen locking utility.
   - [hyprpaper](https://github.com/hyprwm/hyprpaper): Wallpaper utility with IPC controls.
-- i3 Tiling Window Manager
+- i3 Tiling Window Manager.
   - [Picom](https://github.com/yshui/picom): A lightweight compositor for X.
   - [Polybar](https://github.com/polybar/polybar): A fast and easy-to-use status bar.
   - [Rofi](https://github.com/davatorium/rofi): A window switcher, application launcher and dmenu replacement.
@@ -21,7 +21,7 @@
     - [Vimtex](https://github.com/lervag/vimtex)
     - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) in combination with nix packages to make LSP work correctly (implemented for Lua, Rust, C, C++ and Kotlin).
     - [None-ls](https://github.com/nvimtools/none-ls.nvim) to use Neovim as a language server to inject LSP diagnostics (linting) and formatting.
--  Terminal
+-  Terminal.
     - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
     - [Zsh and OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
     - [Starship](https://starship.rs/): Minimal, customizable prompt.
