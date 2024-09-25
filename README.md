@@ -7,6 +7,7 @@
   - [hypridle](https://github.com/hyprwm/hypridle): Idle daemon.
   - [hyprlock](https://github.com/hyprwm/hyprlock/): GPU-accelerated screen locking utility.
   - [hyprpaper](https://github.com/hyprwm/hyprpaper): Wallpaper utility with IPC controls.
+  - [hyprshot](https://github.com/Gustash/hyprshot): Utility to easily take screenshots in Hyprland.
 - i3 Tiling Window Manager.
   - [Picom](https://github.com/yshui/picom): A lightweight compositor for X.
   - [Polybar](https://github.com/polybar/polybar): A fast and easy-to-use status bar.
