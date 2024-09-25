@@ -20,6 +20,7 @@
     - [Treesitter](https://tree-sitter.github.io/tree-sitter/)
     - [Vimtex](https://github.com/lervag/vimtex)
     - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) in combination with nix packages to make LSP work correctly (implemented for Lua, Rust, C, C++ and Kotlin).
+    - [None-ls](https://github.com/nvimtools/none-ls.nvim) to use Neovim as a language server to inject LSP diagnostics (linting) and formatting.
 -  Terminal
     - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
     - [Zsh and OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
@@ -30,6 +31,7 @@
 ## Installation
 - Clone this reposistory in your /home/ directory: ` git clone https://github.com/Jaimevzkz/Linux-Nixos-Config.git`.
 - Copy your hardware configuration to this repository (replacing de one that exists): `cp /etc/nixos/hardware-configuration.nix ~/Linux-Nixos-Config/`.
+- Adapt the specific data from the native `configuration.nix` of you computer to the `machine-specific.nix` file (stateVersion, etc...).
 - run the command to rebuild your system using the flake.nix: `sudo nixos-rebuild switch --flake ~/Linux-Nixos-Config/#nixos-config`.
 - [Optional] Change the directory name to be called nixos (to make the alias `update` work): `mv ~/Linux-Nixos-Config/ ~/nixos/`.
 - Reboot your system and use gdm to choose between hyprland and i3 Tiling window manager: `sudo reboot`.
