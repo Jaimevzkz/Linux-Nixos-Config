@@ -14,14 +14,19 @@
   - [Rofi](https://github.com/davatorium/rofi): A window switcher, application launcher and dmenu replacement.
   - [feh](https://feh.finalrewind.org/): Terminal Image viewer.
 -  Nvim: Modern, open-source text editor based on Vim. Configured using [Lazy.nvim](https://github.com/folke/lazy.nvim) plugin manager.
-    - [Catppuccion theme](https://github.com/catppuccin/nvim)
-    - [Lualine](https://github.com/nvim-lualine/lualine.nvim)
-    - [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim)
-    - [Telscope](https://github.com/nvim-telescope/telescope.nvim)
-    - [Treesitter](https://tree-sitter.github.io/tree-sitter/)
-    - [Vimtex](https://github.com/lervag/vimtex)
+    - [Catppuccion theme](https://github.com/catppuccin/nvim).
+    - [Lualine](https://github.com/nvim-lualine/lualine.nvim).
+    - [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim).
+    - [Telscope](https://github.com/nvim-telescope/telescope.nvim).
+    - [Treesitter](https://tree-sitter.github.io/tree-sitter/).
+    - [Vimtex](https://github.com/lervag/vimtex).
     - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) in combination with nix packages to make LSP work correctly (implemented for Lua, Rust, C, C++ and Kotlin).
     - [None-ls](https://github.com/nvimtools/none-ls.nvim) to use Neovim as a language server to inject LSP diagnostics (linting) and formatting.
+    - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).
+    - [luasnip](https://github.com/L3MON4D3/LuaSnip).
+    - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip).
+    - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets).
+    - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp).
 -  Terminal.
     - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
     - [Zsh and OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
