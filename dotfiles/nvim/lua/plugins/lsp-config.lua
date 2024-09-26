@@ -3,48 +3,54 @@ return {
     "williamboman/mason.nvim",
     config = function()
       require("mason").setup()
-    end
+    end,
   },
   {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = {},  -- Leave this empty or add non-conflicting servers
-        automatic_installation = false  -- Disable automatic installation
+        ensure_installed = {},      -- Leave this empty or add non-conflicting servers
+        automatic_installation = false, -- Disable automatic installation
       })
-    end
+    end,
   },
   {
     "neovim/nvim-lspconfig",
     config = function()
       local lspconfig = require("lspconfig")
+      local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
       -- LSP commands
-      vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-      vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
-      vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
+      vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+      vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
+      vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
 
       -- Languages // Use the NixOS-provided server
       -- Lua
       lspconfig.lua_ls.setup({
-        cmd = { "lua-language-server" },        })
+        cmd = { "lua-language-server" },
+        capabilities = capabilities,
+      })
       -- Rust
       lspconfig.rust_analyzer.setup({
         cmd = { "rust-analyzer" },
+        capabilities = capabilities,
         settings = {
-          ['rust-analyzer'] = {}
-        }
+          ["rust-analyzer"] = {},
+        },
       })
       -- C/C++
       lspconfig.clangd.setup({
         cmd = { "clangd" },
+        capabilities = capabilities,
         on_attach = on_attach,
       })
       -- Kotlin
       lspconfig.kotlin_language_server.setup({
         cmd = { "kotlin-language-server" },
+        capabilities = capabilities,
         on_attach = on_attach,
       })
-    end
-  }
+    end,
+  },
 }
