@@ -4,6 +4,9 @@
 -- Treesitter: creates an abstract tree of the code that makes it easy to highlight it (among other things)
 -- Neotree: tree-structured project on the side
 -- lualine: status bar
+-- lsp
+-- none ls: Formatting and linting
+-- luasnip: autocompletions
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "

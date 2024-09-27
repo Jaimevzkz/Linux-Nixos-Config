@@ -1,16 +1,15 @@
-{
-  inputs,
-    config,
-    pkgs,
-    ...
+{ inputs
+, config
+, pkgs
+, ...
 }:
 let
-machineSpecific = import ./machine-specific.nix;
+  machineSpecific = import ./machine-specific.nix;
 in
 {
   imports = [
     ./hardware-configuration.nix
-      inputs.home-manager.nixosModules.home-manager
+    inputs.home-manager.nixosModules.home-manager
   ];
 
   home-manager = {
@@ -23,23 +22,23 @@ in
 
   ];
 
-# Allow unfree packages
+  # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-# Enable xserver
+  # Enable xserver
   services.xserver.enable = true;
 
-# Enable i3 window manager
+  # Enable i3 window manager
   services.xserver.windowManager.i3.enable = true;
   services.picom.enable = true;
 
-# Enable the gdm display manager.
+  # Enable the gdm display manager.
   services.xserver.displayManager.gdm.enable = true;
 
-# Enable the GNOME Desktop Environment.
+  # Enable the GNOME Desktop Environment.
   services.xserver.desktopManager.gnome.enable = true;
 
-# Enable Hyprland tiling window manager
+  # Enable Hyprland tiling window manager
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
@@ -47,100 +46,103 @@ in
   programs.waybar.enable = true;
   xdg.portal.enable = true;
 
-  nix.settings.experimental-features = [ "nix-command" "flakes"];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   fonts.packages = with pkgs; [
-      fira-code-nerdfont
-      font-awesome
+    fira-code-nerdfont
+    font-awesome
   ];
 
   networking.hostName = "nixos";
 
   programs.firefox.enable = true;
- # services.blueman.enable = true;
-environment.systemPackages = with pkgs; [ 
-# Util 
-      cmake
-      gcc
-      git
-      pamixer
-      brightnessctl
-      grim
-      slurp
-      unzip
-      android-tools
-      scrot
-      xclip
-      maim
-      blueman
-      lua
-      texliveFull
-      zathura
-      evtest
-      alsaUtils
-      cargo
-      wl-clipboard-x11
-      wireplumber
-      fastfetch
-      openssl
-      libreoffice
+  # services.blueman.enable = true;
+  environment.systemPackages = with pkgs; [
+    # Util 
+    cmake
+    gcc
+    git
+    pamixer
+    brightnessctl
+    grim
+    slurp
+    unzip
+    android-tools
+    scrot
+    xclip
+    maim
+    blueman
+    lua
+    texliveFull
+    zathura
+    evtest
+    alsaUtils
+    cargo
+    wl-clipboard-x11
+    wireplumber
+    fastfetch
+    openssl
+    libreoffice
 
-# Terminal
-      vim
-      neovim
-      neofetch
-      htop
-      eza
-      zoxide
-      alacritty
-      zsh
-      starship
-      tmux
-      lazygit
-      cmatrix
-      tree
-      kitty
+    # Terminal
+    vim
+    neovim
+    neofetch
+    htop
+    eza
+    zoxide
+    alacritty
+    zsh
+    starship
+    tmux
+    lazygit
+    cmatrix
+    tree
+    kitty
 
-# LSP
-      sumneko-lua-language-server
-      rust-analyzer
-      clang-tools  
-      kotlin-language-server
-      stylua
+    # LSP
+    sumneko-lua-language-server
+    rust-analyzer
+    clang-tools
+    kotlin-language-server
+    ktlint
+    stylua
+    nil
+    nixpkgs-fmt
 
-# Apps
-      signal-desktop
-      home-manager
-      #discord
-      webcord
-      androidStudioPackages.dev
-      obsidian
-      syncthing
-      keepassxc
+    # Apps
+    signal-desktop
+    home-manager
+    #discord
+    webcord
+    androidStudioPackages.dev
+    obsidian
+    syncthing
+    keepassxc
 
-# i3
-      polybar
-      feh
-      killall
-      rofi
-      pavucontrol
-      pipewire
-      dunst 
-      betterlockscreen
-      i3lock
-      xautolock
+    # i3
+    polybar
+    feh
+    killall
+    rofi
+    pavucontrol
+    pipewire
+    dunst
+    betterlockscreen
+    i3lock
+    xautolock
 
-# Hyprland
-      waybar
-      libnotify
-      hyprpaper 
-      networkmanagerapplet
-      hyprlock
-      hypridle
-      clipman 
-      wofi
-      hyprshot
-      ];
+    # Hyprland
+    waybar
+    libnotify
+    hyprpaper
+    networkmanagerapplet
+    hyprlock
+    hypridle
+    clipman
+    wofi
+    hyprshot
+  ];
 
   users.users = {
     vzkz = {
@@ -152,25 +154,25 @@ environment.systemPackages = with pkgs; [
       shell = pkgs.zsh;
     };
   };
-  
-#enable zsh and set it as default
+
+  #enable zsh and set it as default
   users.defaultUserShell = pkgs.zsh;
   programs.zsh.enable = true;
 
-# Docker
+  # Docker
   virtualisation.docker.enable = true;
 
-# Bootloader.
+  # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-# Enable networking
+  # Enable networking
   networking.networkmanager.enable = true;
 
-# Set your time zone.
+  # Set your time zone.
   time.timeZone = "Europe/Madrid";
 
-# Select internationalisation properties.
+  # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
 
   i18n.extraLocaleSettings = {
@@ -186,7 +188,7 @@ environment.systemPackages = with pkgs; [
   };
 
 
-# Configure keymap in X11
+  # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
     variant = "intl";
@@ -194,10 +196,10 @@ environment.systemPackages = with pkgs; [
   };
 
 
-# Enable CUPS to print documents.
+  # Enable CUPS to print documents.
   services.printing.enable = true;
 
-# Enable sound with pipewire.
+  # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
@@ -215,7 +217,7 @@ environment.systemPackages = with pkgs; [
     };
   };
 
-# https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
+  # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   #system.stateVersion = "23.05";
   system.stateVersion = machineSpecific.system.stateVersion;
 }
