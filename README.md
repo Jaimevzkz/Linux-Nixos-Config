@@ -27,6 +27,7 @@
     - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip).
     - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets).
     - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp).
+    - [nvim-dap](https://github.com/mfussenegger/nvim-dap) and [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) for debugging.
 -  Terminal.
     - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
     - [Zsh and OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
