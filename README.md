@@ -31,7 +31,7 @@
     - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) and [vim-fugitive](https://github.com/tpope/vim-fugitive) for git integration with nvim.
     - [nvim-tmux-navigator](https://github.com/alexghergh/nvim-tmux-navigation) for tmux integration with nvim.
 -  Terminal.
-    - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
+    - [Kitty](https://github.com/kovidgoyal/kitty): Cross-platform, GPU based terminal. 
     - [Zsh and OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
     - [Starship](https://starship.rs/): Minimal, customizable prompt.
     - [Tmux ](https://github.com/tmux/tmux): Terminal multiplexor.
