@@ -28,6 +28,8 @@
     - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets).
     - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp).
     - [nvim-dap](https://github.com/mfussenegger/nvim-dap) and [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) for debugging.
+    - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) and [vim-fugitive](https://github.com/tpope/vim-fugitive) for git integration with nvim.
+    - [nvim-tmux-navigator](https://github.com/alexghergh/nvim-tmux-navigation) for tmux integration with nvim.
 -  Terminal.
     - [Alacritty](https://github.com/alacritty/alacritty): Cross-platform terminal emulator. 
     - [Zsh and OhMyZsh](https://ohmyz.sh): Shell for Unix-like operating systems and framework for managing your Zsh configuration.
