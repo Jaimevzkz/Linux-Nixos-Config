@@ -20,6 +20,15 @@ vim.opt.clipboard = 'unnamedplus'
 vim.opt.relativenumber = true
 vim.opt.number = true
 
+-- Navigate vim panes better
+vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
+vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
+vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
+vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
+vim.keymap.set('n', "<leader>v", ':wincmd v<CR>')
+vim.keymap.set('n', "<leader>s", ':wincmd s<CR>')
+vim.keymap.set('n', "<leader>q", ':wincmd q<CR>')
+
 vim.cmd([[
   highlight Normal guibg=NONE ctermbg=NONE
   highlight NonText guibg=NONE ctermbg=NONE

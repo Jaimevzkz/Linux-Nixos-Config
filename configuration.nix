@@ -61,6 +61,7 @@ in
     # Util 
     cmake
     gcc
+    gdb
     git
     pamixer
     brightnessctl
@@ -83,6 +84,8 @@ in
     fastfetch
     openssl
     libreoffice
+    python3
+    ledger
 
     # Terminal
     vim
