@@ -1,5 +1,4 @@
 { inputs
-, config
 , pkgs
 , ...
 }:
@@ -63,25 +62,14 @@ in
     gcc
     gdb
     git
-    pamixer
+    pamixer # Volume control
     brightnessctl
-    grim
-    slurp
     unzip
-    android-tools
-    scrot
-    xclip
-    maim
     blueman
     lua
     texliveFull
-    zathura
-    evtest
-    alsaUtils
+    zathura # Latex document viewer
     cargo
-    wl-clipboard-x11
-    wireplumber
-    fastfetch
     openssl
     libreoffice
     python3
@@ -91,6 +79,7 @@ in
     vim
     neovim
     neofetch
+    fastfetch
     htop
     eza
     zoxide
@@ -116,7 +105,6 @@ in
     # Apps
     signal-desktop
     home-manager
-    #discord
     webcord
     androidStudioPackages.dev
     obsidian
