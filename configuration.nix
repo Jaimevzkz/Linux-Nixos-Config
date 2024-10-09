@@ -3,7 +3,7 @@
 , ...
 }:
 let
-  machineSpecific = import ./machine-specific.nix;
+  packages = import ./packages.nix;
 in
 {
   imports = [
@@ -55,95 +55,13 @@ in
   networking.hostName = "nixos";
 
   programs.firefox.enable = true;
-  # services.blueman.enable = true;
-  environment.systemPackages = with pkgs; [
-    # Util 
-    cmake
-    gcc
-    gdb
-    git
-    pamixer # Volume control
-    brightnessctl
-    unzip
-    blueman
-    lua
-    texliveFull
-    zathura # Latex document viewer
-    cargo
-    openssl
-    libreoffice
-    python3
-    ledger
-    xsel # For nvim clipboard 
-    wl-clipboard # sync
-
-    # Terminal
-    vim
-    neovim
-    neofetch
-    fastfetch
-    htop
-    eza
-    zoxide
-    alacritty
-    zsh
-    starship
-    tmux
-    lazygit
-    cmatrix
-    tree
-    kitty
-
-    # LSP
-    sumneko-lua-language-server
-    rust-analyzer
-    clang-tools
-    kotlin-language-server
-    ktlint
-    stylua
-    nil
-    nixpkgs-fmt
-
-    # Apps
-    signal-desktop
-    home-manager
-    webcord
-    androidStudioPackages.dev
-    obsidian
-    syncthing
-    keepassxc
-
-    # i3
-    polybar
-    feh
-    killall
-    rofi
-    pavucontrol
-    pipewire
-    dunst
-    betterlockscreen
-    i3lock
-    xautolock
-
-    # Hyprland
-    waybar
-    libnotify
-    hyprpaper
-    networkmanagerapplet
-    hyprlock
-    hypridle
-    clipman
-    wofi
-    hyprshot
-  ];
+  environment.systemPackages = packages.enviroment.systemPackages;
 
   users.users = {
     vzkz = {
       isNormalUser = true;
       description = "Jaime";
       extraGroups = [ "networkmanager" "wheel" "docker" ];
-      packages = with pkgs; [
-      ];
       shell = pkgs.zsh;
     };
   };
@@ -211,6 +129,5 @@ in
   };
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
-  #system.stateVersion = "23.05";
-  system.stateVersion = machineSpecific.system.stateVersion;
+  system.stateVersion = "23.05";
 }
