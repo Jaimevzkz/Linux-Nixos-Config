@@ -74,7 +74,8 @@ in
     libreoffice
     python3
     ledger
-    xclip
+    xsel
+    wl-clipboard
 
     # Terminal
     vim
