@@ -74,8 +74,8 @@ in
     libreoffice
     python3
     ledger
-    xsel
-    wl-clipboard
+    xsel # For nvim clipboard 
+    wl-clipboard # sync
 
     # Terminal
     vim
