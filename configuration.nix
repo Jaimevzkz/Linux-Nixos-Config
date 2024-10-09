@@ -2,12 +2,10 @@
 , pkgs
 , ...
 }:
-let
-  packages = import ./packages.nix;
-in
 {
   imports = [
     ./hardware-configuration.nix
+    ./packages.nix
     inputs.home-manager.nixosModules.home-manager
   ];
 
@@ -55,7 +53,7 @@ in
   networking.hostName = "nixos";
 
   programs.firefox.enable = true;
-  environment.systemPackages = packages.environment.systemPackages;
+  #environment.systemPackages = packages.environment.systemPackages;
 
   users.users = {
     vzkz = {
