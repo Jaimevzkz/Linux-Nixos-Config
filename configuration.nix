@@ -74,6 +74,7 @@ in
     libreoffice
     python3
     ledger
+    xclip
 
     # Terminal
     vim
