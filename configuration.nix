@@ -55,7 +55,7 @@ in
   networking.hostName = "nixos";
 
   programs.firefox.enable = true;
-  environment.systemPackages = packages.enviroment.systemPackages;
+  environment.systemPackages = packages.environment.systemPackages;
 
   users.users = {
     vzkz = {
