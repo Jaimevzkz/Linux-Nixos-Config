@@ -21,6 +21,12 @@
     ledger
     xsel # For nvim clipboard 
     wl-clipboard # sync
+    go
+    mage
+    dos2unix
+    awscli
+    android-tools
+    usbutils
 
     # Terminal
     vim
@@ -57,6 +63,7 @@
     obsidian
     syncthing
     keepassxc
+    slack
 
     # i3
     polybar

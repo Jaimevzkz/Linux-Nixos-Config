@@ -53,7 +53,8 @@
   networking.hostName = "nixos";
 
   programs.firefox.enable = true;
-  #environment.systemPackages = packages.environment.systemPackages;
+
+  services.udev.packages = [ pkgs.android-udev-rules ];
 
   users.users = {
     vzkz = {
