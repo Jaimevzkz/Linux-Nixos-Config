@@ -1,7 +1,7 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 {
   imports = [
-    ./modules/zsh.nix
+    #./modules/zsh.nix
     ./modules/alacritty.nix
     ./modules/starship.nix
     #./modules/tmux.nix
@@ -14,13 +14,13 @@
     pkgs.hello
   ];
 
-# Zoxide
+  # Zoxide
   programs.zoxide = {
     enable = true;
     enableZshIntegration = true;
   };
 
-# Git configuration
+  # Git configuration
   programs.git = {
     enable = true;
     userName = "Jaimevzkz";
@@ -33,7 +33,6 @@
   programs.home-manager.enable = true;
   home.stateVersion = "23.05";
 }
-
 
 
 
