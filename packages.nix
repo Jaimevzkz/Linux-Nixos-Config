@@ -64,6 +64,7 @@
     syncthing
     keepassxc
     slack
+    chrome
 
     # i3
     polybar
