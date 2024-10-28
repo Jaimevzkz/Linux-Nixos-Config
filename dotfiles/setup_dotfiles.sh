@@ -48,7 +48,24 @@ done
 TMUX_SRC="$DOTFILES_DIR/.tmux.conf"
 TMUX_DEST="$HOME/.tmux.conf"
 
-# Check if the destination already exists and remove it if it's a symlink
+# Add .zshrc symbolic link
+ZSH_SRC="$DOTFILES_DIR/.zshrc"
+ZSH_DEST="$HOME/.zshrc"
+
+# XSH: Check if the destination already exists and remove it if it's a symlink
+if [ -L "$ZSH_DEST" ]; then
+  echo "Removing existing symlink at $ZSH_DEST"
+  rm "$ZSH_DEST"
+elif [ -e "$ZSH_DEST" ]; then
+  echo "Backing up existing file at $ZSH_DEST to $ZSH_DEST.bak"
+  mv "$ZSH_DEST" "$ZSH_DEST.bak"
+fi
+# Create the symbolic link for .zshrc
+echo "Creating symlink from $ZSH_SRC to $ZSH_DEST"
+ln -s "$ZSH_SRC" "$ZSH_DEST"
+
+
+# TMUX: Check if the destination already exists and remove it if it's a symlink
 if [ -L "$TMUX_DEST" ]; then
   echo "Removing existing symlink at $TMUX_DEST"
   rm "$TMUX_DEST"

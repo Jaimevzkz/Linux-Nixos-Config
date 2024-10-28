@@ -29,6 +29,9 @@ vim.keymap.set('n', "<leader>v", ':wincmd v<CR>')
 vim.keymap.set('n', "<leader>s", ':wincmd s<CR>')
 vim.keymap.set('n', "<leader>q", ':wincmd q<CR>')
 
+-- jj as escape key
+vim.keymap.set('i', 'jj', '<Esc>', { noremap = true, silent = true })
+
 vim.cmd([[
   highlight Normal guibg=NONE ctermbg=NONE
   highlight NonText guibg=NONE ctermbg=NONE
