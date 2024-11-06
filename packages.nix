@@ -64,7 +64,6 @@
     syncthing
     keepassxc
     slack
-    chromium
 
     # i3
     polybar
@@ -90,4 +89,3 @@
     hyprshot
   ];
 }
-

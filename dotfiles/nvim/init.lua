@@ -29,6 +29,9 @@ vim.keymap.set('n', "<leader>v", ':wincmd v<CR>')
 vim.keymap.set('n', "<leader>s", ':wincmd s<CR>')
 vim.keymap.set('n', "<leader>q", ':wincmd q<CR>')
 
+vim.keymap.set('n', '<C-.>', ':vertical resize +2<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<C-,>', ':vertical resize -2<CR>', { noremap = true, silent = true })
+
 -- jj as escape key
 vim.keymap.set('i', 'jj', '<Esc>', { noremap = true, silent = true })
 

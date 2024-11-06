@@ -19,8 +19,17 @@
 
   ];
 
+  # Nvidia
+  hardware.graphics.enable = true;
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nvidia.open = true; # Use open-source driver modules for NVIDIA GPUs Turing and later
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+
+  programs.chromium.enable = true;
+  nixpkgs.config.chromium = {enableWideVine = true;};
 
   # Enable xserver
   services.xserver.enable = true;
@@ -122,7 +131,7 @@
   services.openssh = {
     enable = true;
     settings = {
-      PermitRootLogin = "no"; 
+      PermitRootLogin = "no";
       PasswordAuthentication = false;
     };
   };
