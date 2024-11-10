@@ -19,6 +19,7 @@ vim.cmd("set shiftwidth=2")
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.relativenumber = true
 vim.opt.number = true
+vim.opt.conceallevel = 2
 
 -- Navigate vim panes better
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
@@ -28,9 +29,6 @@ vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 vim.keymap.set('n', "<leader>v", ':wincmd v<CR>')
 vim.keymap.set('n', "<leader>s", ':wincmd s<CR>')
 vim.keymap.set('n', "<leader>q", ':wincmd q<CR>')
-
-vim.keymap.set('n', '<C-.>', ':vertical resize +2<CR>', { noremap = true, silent = true })
-vim.keymap.set('n', '<C-,>', ':vertical resize -2<CR>', { noremap = true, silent = true })
 
 -- jj as escape key
 vim.keymap.set('i', 'jj', '<Esc>', { noremap = true, silent = true })
