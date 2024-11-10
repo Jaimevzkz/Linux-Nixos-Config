@@ -27,6 +27,7 @@
     awscli
     android-tools
     usbutils
+    ripgrep
 
     # Terminal
     vim
@@ -64,6 +65,7 @@
     syncthing
     keepassxc
     slack
+    chromium
 
     # i3
     polybar
@@ -89,3 +91,4 @@
     hyprshot
   ];
 }
+
