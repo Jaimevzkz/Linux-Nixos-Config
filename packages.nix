@@ -27,6 +27,7 @@
     awscli
     android-tools
     usbutils
+    ripgrep
 
     # Terminal
     vim
