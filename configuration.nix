@@ -29,7 +29,7 @@
   nixpkgs.config.allowUnfree = true;
 
   programs.chromium.enable = true;
-  nixpkgs.config.chromium = {enableWideVine = true;};
+  nixpkgs.config.chromium = { enableWideVine = true; };
 
   # Enable xserver
   services.xserver.enable = true;
@@ -84,6 +84,7 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+ 
 
   # Enable networking
   networking.networkmanager.enable = true;
