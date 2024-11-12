@@ -28,6 +28,7 @@
     android-tools
     usbutils
     ripgrep
+    nodejs
 
     # Terminal
     vim

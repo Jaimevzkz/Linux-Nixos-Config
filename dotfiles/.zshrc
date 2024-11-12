@@ -1,10 +1,10 @@
 export ZSH="$HOME/.oh-my-zsh"
+export TERM=xterm-256color
 
-# Uncomment one of the following lines to change the auto-update behavior
  zstyle ':omz:update' mode auto      # update automatically without asking
 
-# Uncomment the following line to change how often to auto-update (in days).
- zstyle ':omz:update' frequency 13
+ zstyle ':omz:update' frequency 13 # how often to auto-update (in days).
+
  
 plugins=(
   git
@@ -37,6 +37,8 @@ alias lg='lazygit'
 
 # Set nvim as default editor
 export EDITOR="nvim"
+
+export TERM=xterm-256color
 
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
