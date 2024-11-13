@@ -15,8 +15,14 @@
     backupFileExtension = "backup";
   };
 
-  nixpkgs.overlays = [
+  nixpkgs.config = {
+    android_sdk.accept_license = true;
+  };
 
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [
+    # Add any missing dynamic libraries for unpackaged programs
+    clang
   ];
 
   # Nvidia
@@ -136,6 +142,7 @@
       PasswordAuthentication = false;
     };
   };
+
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
   system.stateVersion = "24.05";

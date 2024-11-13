@@ -52,3 +52,14 @@ eval "$(starship init zsh)"
 #Execute fastfetch on startup
 fastfetch
 
+#To be able to execute gomobile
+export GOPATH=~/go
+# To have java 19
+export JAVA_HOME=/opt/jdk-19.0.2
+export PATH=$JAVA_HOME/bin:$PATH
+
+export ANDROID_HOME=~/Android/Sdk
+export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
+export PATH=/home/vzkz/tiledmedia/go/bin:$PATH
+export PATH=/home/vzkz/go/bin:$PATH
+

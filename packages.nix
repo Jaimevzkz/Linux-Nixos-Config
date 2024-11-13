@@ -1,5 +1,7 @@
 { pkgs, ... }:
-
+let
+  androidStudioGiraffe = import ./android-studio-giraffe.nix { inherit pkgs; };
+in
 {
   environment.systemPackages = with pkgs; [
     # Util 
@@ -21,14 +23,17 @@
     ledger
     xsel # For nvim clipboard 
     wl-clipboard # sync
-    go
-    mage
     dos2unix
     awscli
     android-tools
     usbutils
+    bash
     ripgrep
     nodejs
+    mage
+    gotools
+    protobuf_23
+    protoc-gen-go
 
     # Terminal
     vim
@@ -62,6 +67,7 @@
     home-manager
     webcord
     androidStudioPackages.dev
+    androidStudioGiraffe
     obsidian
     syncthing
     keepassxc
@@ -92,4 +98,3 @@
     hyprshot
   ];
 }
-
