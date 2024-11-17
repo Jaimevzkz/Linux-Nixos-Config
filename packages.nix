@@ -48,6 +48,9 @@
     cmatrix
     tree
     kitty
+    fzf
+    bat
+
 
     # LSP
     sumneko-lua-language-server

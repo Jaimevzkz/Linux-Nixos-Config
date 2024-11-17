@@ -24,6 +24,7 @@ alias cl="clear"
 alias t="tmux attach || tmux"
 alias logout="pkill -KILL -u $USER"
 alias update="sudo nixos-rebuild switch --flake ~/nixos/#nixos-config"
+alias cat="bat"
 
 #git
 psh() {
