@@ -17,7 +17,7 @@ return {
 			},
 		},
 		templates = {
-			folder = "./Resources/Templates/",
+			folder = "./Archives/Obsidian-Resources/Templates/",
 			date_format = "%Y-%m-%d-%a",
 			time_format = "%H:%M",
 		},
