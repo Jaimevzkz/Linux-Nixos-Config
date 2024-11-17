@@ -1,7 +1,4 @@
 { pkgs, ... }:
-let
-  androidStudioGiraffe = import ./android-studio-giraffe.nix { inherit pkgs; };
-in
 {
   environment.systemPackages = with pkgs; [
     # Util 
@@ -67,7 +64,6 @@ in
     home-manager
     webcord
     androidStudioPackages.dev
-    androidStudioGiraffe
     obsidian
     syncthing
     keepassxc
