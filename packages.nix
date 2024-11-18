@@ -1,7 +1,4 @@
 { pkgs, ... }:
-let
-  androidStudioGiraffe = import ./android-studio-giraffe.nix { inherit pkgs; };
-in
 {
   environment.systemPackages = with pkgs; [
     # Util 
@@ -51,6 +48,9 @@ in
     cmatrix
     tree
     kitty
+    fzf
+    bat
+
 
     # LSP
     sumneko-lua-language-server
@@ -67,7 +67,6 @@ in
     home-manager
     webcord
     androidStudioPackages.dev
-    androidStudioGiraffe
     obsidian
     syncthing
     keepassxc

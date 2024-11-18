@@ -1,10 +1,10 @@
 export ZSH="$HOME/.oh-my-zsh"
-export TERM=xterm-256color
 
+# Uncomment one of the following lines to change the auto-update behavior
  zstyle ':omz:update' mode auto      # update automatically without asking
 
- zstyle ':omz:update' frequency 13 # how often to auto-update (in days).
-
+# Uncomment the following line to change how often to auto-update (in days).
+ zstyle ':omz:update' frequency 13
  
 plugins=(
   git
@@ -24,6 +24,7 @@ alias cl="clear"
 alias t="tmux attach || tmux"
 alias logout="pkill -KILL -u $USER"
 alias update="sudo nixos-rebuild switch --flake ~/nixos/#nixos-config"
+alias cat="bat"
 
 #git
 psh() {
@@ -38,8 +39,6 @@ alias lg='lazygit'
 # Set nvim as default editor
 export EDITOR="nvim"
 
-export TERM=xterm-256color
-
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
@@ -51,15 +50,4 @@ eval "$(starship init zsh)"
 
 #Execute fastfetch on startup
 fastfetch
-
-#To be able to execute gomobile
-export GOPATH=~/go
-# To have java 19
-export JAVA_HOME=/opt/jdk-19.0.2
-export PATH=$JAVA_HOME/bin:$PATH
-
-export ANDROID_HOME=~/Android/Sdk
-export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
-export PATH=/home/vzkz/tiledmedia/go/bin:$PATH
-export PATH=/home/vzkz/go/bin:$PATH
 
