@@ -2,6 +2,9 @@
 , pkgs
 , ...
 }:
+let
+  androidStudioGiraffe = import ./android-studio-giraffe.nix { inherit pkgs; };
+in
 {
   imports = [
     ./hardware-configuration.nix
@@ -14,6 +17,7 @@
     users = { vzkz = import ./home.nix; };
     backupFileExtension = "backup";
   };
+  environment.systemPackages = [ androidStudioGiraffe ];
 
   nixpkgs.config = {
     android_sdk.accept_license = true;
