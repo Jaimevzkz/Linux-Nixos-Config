@@ -30,6 +30,8 @@ vim.keymap.set('n', "<leader>v", ':wincmd v<CR>')
 vim.keymap.set('n', "<leader>s", ':wincmd s<CR>')
 vim.keymap.set('n', "<leader>q", ':wincmd q<CR>')
 
+vim.keymap.set('n', "<leader>h", ':nohlsearch <CR>') -- Quit highlighting
+
 -- jj as escape key
 vim.keymap.set('i', 'jj', '<Esc>', { noremap = true, silent = true })
 

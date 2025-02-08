@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3
 
 set $mod Mod4
 # set $mod Mod1
@@ -40,7 +40,7 @@ bindsym Print exec --no-startup-id scrot ~/screenshots/%Y-%m-%d_%H-%M-%S.png
 
 bindsym --release $mod+Print exec "NOW=$(date +%d-%b-%Y_%H-%M-%S) && maim --format png --select > ~/screenshots/screenshot_$NOW.png && xclip -selection clip -t image/png ~/screenshots/screenshot_$NOW.png"
 
-font pango:FiraCode Nerd Font 14
+font pango:FiraCode Nerd Font 22
 
 exec --no-startup-id dex --autostart --environment i3
 
