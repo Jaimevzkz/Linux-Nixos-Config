@@ -29,6 +29,10 @@ in
     clang
   ];
 
+  # 32Bit compatibility
+  hardware.opengl.driSupport32Bit = true;
+  hardware.pulseaudio.support32Bit = true;
+
   # Nvidia
   hardware.graphics.enable = true;
   services.xserver.videoDrivers = [ "nvidia" ];
@@ -65,7 +69,7 @@ in
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   fonts.packages = with pkgs; [
-    fira-code-nerdfont
+    nerd-fonts.fira-code
     font-awesome
   ];
 
@@ -101,6 +105,7 @@ in
 
   # Set your time zone.
   time.timeZone = "Europe/Madrid";
+  #time.timeZone = "Atlantic/Canary";
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";

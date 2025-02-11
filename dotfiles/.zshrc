@@ -26,7 +26,8 @@ alias logout="pkill -KILL -u $USER"
 alias update="sudo nixos-rebuild switch --flake ~/nixos/#nixos-config"
 alias cat="bat"
 alias bat="cat"
-
+alias wifi="sudo nmtui"
+      
 #git
 psh() {
   if [ -z "$1" ]; then

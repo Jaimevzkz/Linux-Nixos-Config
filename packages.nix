@@ -31,6 +31,9 @@
     gotools
     protobuf_23
     protoc-gen-go
+    alsa-utils # debug volume
+    sof-firmware # same
+    nodePackages_latest.cspell # Spell checker for markdown
 
     # Terminal
     vim
@@ -72,6 +75,7 @@
     keepassxc
     slack
     chromium
+    dropbox
 
     # i3
     polybar
