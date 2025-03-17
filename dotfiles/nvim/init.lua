@@ -30,7 +30,15 @@ vim.keymap.set('n', "<leader>v", ':wincmd v<CR>')
 vim.keymap.set('n', "<leader>s", ':wincmd s<CR>')
 vim.keymap.set('n', "<leader>q", ':wincmd q<CR>')
 
-vim.keymap.set('n', "<leader>h", ':nohlsearch <CR>') -- Quit highlighting
+-- insert line above/below
+vim.keymap.set('n', "<leader>o", 'o<Esc>k')
+vim.keymap.set('n', "<leader>O", 'O<Esc>j')
+
+-- paste without overriding keyboard
+vim.keymap.set('n', "<leader>p", '"0p')
+
+-- Quit highlighting
+vim.keymap.set('n', "<leader>h", ':nohlsearch <CR>')
 
 -- jj as escape key
 vim.keymap.set('i', 'jj', '<Esc>', { noremap = true, silent = true })

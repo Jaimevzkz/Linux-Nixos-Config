@@ -75,7 +75,8 @@
     keepassxc
     slack
     chromium
-    dropbox
+    vscode
+    remmina
 
     # i3
     polybar
