@@ -1,5 +1,5 @@
 { pkgs }:
-pkgs.buildFHSUserEnv {
+pkgs.buildFHSEnv {
   name = "android-studio-giraffe";
   targetPkgs = pkgs: [
     pkgs.glibc
