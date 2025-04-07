@@ -102,6 +102,7 @@ in
 
   # Enable networking
   networking.networkmanager.enable = true;
+  networking.firewall.allowedTCPPorts = [ 433 ];
 
   # Set your time zone.
   time.timeZone = "Europe/Madrid";

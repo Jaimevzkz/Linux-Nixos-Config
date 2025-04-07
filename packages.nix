@@ -69,7 +69,7 @@
     signal-desktop
     home-manager
     webcord
-    androidStudioPackages.dev
+    android-studio
     obsidian
     syncthing
     keepassxc
