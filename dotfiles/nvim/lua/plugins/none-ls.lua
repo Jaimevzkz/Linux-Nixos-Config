@@ -18,14 +18,18 @@ return {
 					command = "clang-format", -- Use clang-format installed via Nix
 				}),
 
-				-- Kotlin formatting using ktlint
-				null_ls.builtins.formatting.ktlint.with({
-					command = "ktlint", -- Use ktlint installed via Nix
-				}),
-
 				-- Kotlin linting using ktlint
 				null_ls.builtins.diagnostics.ktlint.with({
 					command = "ktlint", -- Use ktlint installed via Nix
+				}),
+				-- Go formatting using goimports
+				null_ls.builtins.formatting.goimports.with({
+					command = "goimports",
+				}),
+
+				-- Go linting using golangci-lint
+				null_ls.builtins.diagnostics.golangci_lint.with({
+					command = "golangci-lint",
 				}),
 			},
 		})

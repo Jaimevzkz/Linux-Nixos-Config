@@ -51,9 +51,15 @@ return {
 				capabilities = capabilities,
 				on_attach = on_attach,
 			})
-      -- Nix
+			-- Nix
 			lspconfig.nil_ls.setup({
 				cmd = { "nil" }, -- Use the `nil` language server binary
+				capabilities = capabilities,
+				on_attach = on_attach,
+			})
+			-- Go
+			lspconfig.gopls.setup({
+				cmd = { "gopls" },
 				capabilities = capabilities,
 				on_attach = on_attach,
 			})

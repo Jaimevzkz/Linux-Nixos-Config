@@ -29,6 +29,7 @@
     nodejs
     mage
     gotools
+    golangci-lint
     protobuf_23
     protoc-gen-go
     alsa-utils # debug volume
@@ -64,6 +65,7 @@
     stylua
     nil
     nixpkgs-fmt
+    gopls
 
     # Apps
     signal-desktop
