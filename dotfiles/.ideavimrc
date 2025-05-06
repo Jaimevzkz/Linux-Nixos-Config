@@ -5,4 +5,5 @@ let mapleader = " "
 nnoremap <Leader>o o<Esc>k
 nnoremap <Leader>O O<Esc>j
 
-nnoremap <Leader>p "0p
+nnoremap <Leader>y "cy
+nnoremap <Leader>p "cp

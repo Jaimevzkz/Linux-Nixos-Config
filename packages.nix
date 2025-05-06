@@ -35,6 +35,7 @@
     alsa-utils # debug volume
     sof-firmware # same
     nodePackages_latest.cspell # Spell checker for markdown
+    kanshi # disable laptop screen with external monitor
 
     # Terminal
     vim

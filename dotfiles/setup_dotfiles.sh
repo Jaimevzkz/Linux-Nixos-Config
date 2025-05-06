@@ -4,8 +4,8 @@ DOTFILES_DIR=~/nixos/dotfiles
 
 # List of directories to link
 # "waybar" "hypr"
-CONFIG_DIRS=("nvim" "i3" "polybar" "picom" "rofi" "hypr" "waybar" "wofi" "fastfetch" "kitty" "dunst" "tmux")  # Add other directories as needed
-HOME_DIRS=("wallpaper" ".ideavimrc" ".zshrc")  # Add other directories as needed
+CONFIG_DIRS=("nvim" "i3" "polybar" "picom" "rofi" "hypr" "waybar" "wofi" "fastfetch" "kitty" "dunst" "tmux" "kanshi") 
+HOME_DIRS=("wallpaper" ".ideavimrc" ".zshrc")  
 
 # Create symbolic links
 for DIR in "${CONFIG_DIRS[@]}"; do

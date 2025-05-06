@@ -63,6 +63,7 @@ in
     enable = true;
     xwayland.enable = true;
   };
+  #programs.hyprland.package = inputs.hyprland.packages.${pkgs.system}.default;
   programs.waybar.enable = true;
   xdg.portal.enable = true;
 

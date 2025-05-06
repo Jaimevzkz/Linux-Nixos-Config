@@ -13,15 +13,23 @@ return {
       enable_git_status = true,
       enable_diagnostics = true,
       filesystem = {
+        filtered_items = {
+          visible = true,
+          hide_dotfiles = false,
+          hide_gitignored = false,
+        },
         follow_current_file = {
-          true,
+          enabled = true,
+          leave_dirs_open = true,
         },
         hijack_netrw_behavior = "open_current",
       },
       window = {
         width = 30,
-      }
+      },
     })
-    vim.keymap.set('n', '<C-n>', ':Neotree toggle left<CR>', {})
-  end
+    vim.keymap.set("n", "<C-n>", ":Neotree toggle left<CR>", {})
+    vim.keymap.set("n", "<leader>.", ":vertical resize 50<CR>")
+   vim.keymap.set("n", "<leader>,", ":vertical resize 20<CR>")
+  end,
 }

@@ -27,6 +27,7 @@ alias update="sudo nixos-rebuild switch --flake ~/nixos/#nixos-config"
 alias cat="bat"
 alias bat="cat"
 alias wifi="sudo nmtui"
+alias waybarRestart="pkill waybar && ~/nixos/dotfiles/waybar/launch_waybar.sh &"
       
 #git
 psh() {
@@ -52,6 +53,22 @@ eval "$(starship init zsh)"
 
 #Execute fastfetch on startup
 fastfetch
+
+# Tiledmedia
+alias libs='nautilus ~/tiledmedia/TiledmediaCore/Showcase/android/kotlin/flat/app/libs &'
+alias sdklibs='nautilus ~/tiledmedia/sdkProject/SDK/Android/ClearVRSDK/tiledmediasdk &'
+alias gosdk="~/tiledmedia/TiledmediaCore/SDK"
+clog () {
+	cpwd=$(pwd)
+	gosdk
+	cd ../Tools/CoreLogToolbox
+	if [[ ! -f "./downloads/$1/clearvr${2}.tmlog" ]]; then
+		go run . lookup $1
+		mv ./downloads/$1/clearvr.tmlog ./downloads/$1/clearvr${2}.tmlog
+	fi
+	code ./downloads/$1/clearvr${2}.tmlog
+	cd ${cpwd}
+}
 
 
 #To be able to execute gomobile
