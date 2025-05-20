@@ -1,4 +1,3 @@
-inoremap jj <Esc>
 set clipboard+=unnamedplus
 
 let mapleader = " "

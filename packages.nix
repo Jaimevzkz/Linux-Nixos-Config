@@ -80,6 +80,7 @@
     chromium
     vscode
     remmina
+    spotify
 
     # i3
     polybar

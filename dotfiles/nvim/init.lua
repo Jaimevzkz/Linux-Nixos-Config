@@ -41,7 +41,7 @@ vim.keymap.set('n', "<leader>p", '"0p')
 vim.keymap.set('n', "<leader>h", ':nohlsearch <CR>')
 
 -- jj as escape key
-vim.keymap.set('i', 'jj', '<Esc>', { noremap = true, silent = true })
+-- vim.keymap.set('i', 'jj', '<Esc>', { noremap = true, silent = true })
 
 vim.cmd([[
   highlight Normal guibg=NONE ctermbg=NONE
