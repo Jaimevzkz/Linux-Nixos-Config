@@ -30,12 +30,13 @@
     mage
     gotools
     golangci-lint
-    protobuf_23
+    #protobuf_23
     protoc-gen-go
     alsa-utils # debug volume
     sof-firmware # same
     nodePackages_latest.cspell # Spell checker for markdown
     kanshi # disable laptop screen with external monitor
+    nodejs_20
 
     # Terminal
     vim

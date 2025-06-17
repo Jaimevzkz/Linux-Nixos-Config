@@ -1,5 +1,6 @@
 { inputs
 , pkgs
+, legacyPkgs
 , ...
 }:
 let
@@ -17,7 +18,10 @@ in
     users = { vzkz = import ./home.nix; };
     backupFileExtension = "backup";
   };
-  environment.systemPackages = [ androidStudioGiraffe ];
+  environment.systemPackages = [
+    androidStudioGiraffe
+    legacyPkgs.protobuf_23
+  ];
 
   nixpkgs.config = {
     android_sdk.accept_license = true;
