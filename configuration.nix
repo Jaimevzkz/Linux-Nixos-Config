@@ -57,10 +57,10 @@ in
   services.picom.enable = true;
 
   # Enable the gdm display manager.
-  services.xserver.displayManager.gdm.enable = true;
+  services.displayManager.gdm.enable = true;
 
   # Enable the GNOME Desktop Environment.
-  services.xserver.desktopManager.gnome.enable = true;
+  services.desktopManager.gnome.enable = true;
 
   # Enable Hyprland tiling window manager
   programs.hyprland = {
