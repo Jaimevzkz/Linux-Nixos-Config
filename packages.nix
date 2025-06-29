@@ -28,9 +28,7 @@
     ripgrep
     nodejs
     mage
-    gotools
-    protobuf_23
-    protoc-gen-go
+    wget
 
     # Terminal
     vim
