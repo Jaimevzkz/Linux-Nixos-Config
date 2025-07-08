@@ -1,4 +1,4 @@
-# Welcome to my Dotfiles!
+# Welcome to my Nix OS Dotfiles!
 ![Header](./SystemPreview_hypr.png)
 ![Header](./SystemPreview_i3.png)
 ## Tech Stack
