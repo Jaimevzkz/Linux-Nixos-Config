@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
-    # Util 
+    # Util
     cmake
     gcc
     gdb
@@ -18,7 +18,7 @@
     libreoffice
     python3
     ledger
-    xsel # For nvim clipboard 
+    xsel # For nvim clipboard
     wl-clipboard # sync
     dos2unix
     awscli
@@ -49,7 +49,6 @@
     fzf
     bat
 
-
     # LSP
     sumneko-lua-language-server
     rust-analyzer
@@ -64,12 +63,13 @@
     signal-desktop
     home-manager
     webcord
-    androidStudioPackages.dev
+    android-studio
     obsidian
     syncthing
     keepassxc
     slack
     chromium
+    gimp3-with-plugins
 
     # i3
     polybar

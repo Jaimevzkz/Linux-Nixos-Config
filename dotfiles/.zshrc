@@ -60,8 +60,11 @@ export GOPATH=~/go
 export JAVA_HOME=/opt/jdk-19.0.2
 export PATH=$JAVA_HOME/bin:$PATH
 
+
 export ANDROID_HOME=~/Android/Sdk
-export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
+export PATH="/run/current-system/sw/bin:$PATH"
+export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+
 export PATH=/home/vzkz/tiledmedia/go/bin:$PATH
 export PATH=/home/vzkz/go/bin:$PATH
 
