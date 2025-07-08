@@ -69,10 +69,12 @@ clog () {
 	code ./downloads/$1/clearvr${2}.tmlog
 	cd ${cpwd}
 }
-
+alias buildCore='~/Documents/buildCore/buildCore.sh'
+alias sdk64build='~/Documents/buildCore/buildCore.sh 64 sdk'
 
 #To be able to execute gomobile
 export GOPATH=~/go
+export PATH=$GOPATH/bin:$PATH
 # To have java 19
 export JAVA_HOME=/opt/jdk-19.0.2
 export PATH=$JAVA_HOME/bin:$PATH

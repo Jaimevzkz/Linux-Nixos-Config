@@ -37,6 +37,27 @@
     nodePackages_latest.cspell # Spell checker for markdown
     kanshi # disable laptop screen with external monitor
     nodejs_20
+    pnpm
+
+    # shaders compatibility
+    gnumake
+    clang
+    glslang
+    #OpenGl
+    libGL
+    libGLU
+    glew
+    mesa-gl-headers
+    libglibutil
+    xorg.libX11
+    xorg.libXext
+    xorg.libXrandr
+    xorg.libXxf86vm
+    xorg.libXi
+    # Vulkan
+    vulkan-tools
+    vulkan-loader
+    vulkan-headers
 
     # Terminal
     vim
@@ -56,7 +77,6 @@
     kitty
     fzf
     bat
-
 
     # LSP
     sumneko-lua-language-server
@@ -82,6 +102,7 @@
     vscode
     remmina
     spotify
+    virtualbox
 
     # i3
     polybar

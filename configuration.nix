@@ -3,9 +3,6 @@
 , legacyPkgs
 , ...
 }:
-let
-  androidStudioGiraffe = import ./android-studio-giraffe.nix { inherit pkgs; };
-in
 {
   imports = [
     ./hardware-configuration.nix
@@ -19,7 +16,6 @@ in
     backupFileExtension = "backup";
   };
   environment.systemPackages = [
-    androidStudioGiraffe
     legacyPkgs.protobuf_23
   ];
 
@@ -88,7 +84,7 @@ in
     vzkz = {
       isNormalUser = true;
       description = "Jaime";
-      extraGroups = [ "networkmanager" "wheel" "docker" ];
+      extraGroups = [ "networkmanager" "wheel" "docker" "libvirtd" "kvm"];
       shell = pkgs.zsh;
     };
   };
